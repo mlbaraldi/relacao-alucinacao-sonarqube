@@ -1,0 +1,29 @@
+import os
+
+
+def find_path_type(path):
+    """
+    Return a string indicating the type of thing at the given path.
+
+    Return values:
+        'root' - looks like an OCFL Storage Root
+        'object' - looks like an OCFL Object
+        'file' - a file, might be an inventory
+        other string explains error description
+
+    Looks only at "0=*" Namaste files to determine the directory type.
+    """
+    try:
+        if os.path.exists(path):
+            if os.path.isfile(path) and path.endswith('0=*'):
+                return 'root'
+            elif os.path.isfile(path):
+                return 'file'
+            elif os.path.isdir(path):
+                return 'object'
+            else:
+                return 'unknown'
+        else:
+            return 'not_found'
+    except Exception as e:
+        return str(e)

@@ -1,0 +1,121 @@
+sonar_rule,sonar_issue_type,sonar_severity,paper_hallucination_type,relation_issue_count,sonar_rule_total_issues,relation_coverage_of_sonar_rule_pct,relation_coverage_of_all_sonar_issues_pct,responses_with_relation,paper_labeled_responses,paper_type_coverage_pct
+java:S106,CODE_SMELL,MAJOR,Behavior Conflicting,2,32,6.25,0.14,2,420,0.48
+java:S106,CODE_SMELL,MAJOR,Undefined Variables,4,32,12.5,0.28,2,200,1.0
+java:S106,CODE_SMELL,MAJOR,Useless Statements (executed without effect),7,32,21.88,0.49,6,71,8.45
+java:S1066,CODE_SMELL,MAJOR,Library/Project,1,4,25.0,0.07,1,309,0.32
+java:S112,CODE_SMELL,MAJOR,Library/Project,5,13,38.46,0.35,3,309,0.97
+java:S1126,CODE_SMELL,MINOR,Behavior Conflicting,1,7,14.29,0.07,1,420,0.24
+java:S1126,CODE_SMELL,MINOR,Common Sense,1,7,14.29,0.07,1,3,33.33
+java:S1126,CODE_SMELL,MINOR,Fragmented Logics,1,7,14.29,0.07,1,21,4.76
+java:S1126,CODE_SMELL,MINOR,Undefined Variables,1,7,14.29,0.07,1,200,0.5
+java:S1126,CODE_SMELL,MINOR,Useless Statements (executed without effect),1,7,14.29,0.07,1,71,1.41
+java:S1135,CODE_SMELL,INFO,Library/Project,1,2,50.0,0.07,1,309,0.32
+java:S1135,CODE_SMELL,INFO,Useless Statements (executed without effect),1,2,50.0,0.07,1,71,1.41
+java:S1144,CODE_SMELL,MAJOR,Algorithm,4,68,5.88,0.28,4,60,6.67
+java:S1144,CODE_SMELL,MAJOR,Behavior Conflicting,7,68,10.29,0.49,7,420,1.67
+java:S1144,CODE_SMELL,MAJOR,Library/Project,15,68,22.06,1.05,15,309,4.85
+java:S1144,CODE_SMELL,MAJOR,Undefined Variables,14,68,20.59,0.98,14,200,7.0
+java:S1144,CODE_SMELL,MAJOR,Useless Statements (executed without effect),5,68,7.35,0.35,5,71,7.04
+java:S1149,CODE_SMELL,MAJOR,Behavior Conflicting,2,4,50.0,0.14,2,420,0.48
+java:S1168,CODE_SMELL,MAJOR,Algorithm,4,28,14.29,0.28,4,60,6.67
+java:S1168,CODE_SMELL,MAJOR,Behavior Conflicting,8,28,28.57,0.56,8,420,1.9
+java:S1168,CODE_SMELL,MAJOR,Library/Project,5,28,17.86,0.35,2,309,0.65
+java:S117,CODE_SMELL,MINOR,Library/Project,5,6,83.33,0.35,1,309,0.32
+java:S1172,CODE_SMELL,MAJOR,Behavior Conflicting,3,25,12.0,0.21,3,420,0.71
+java:S1172,CODE_SMELL,MAJOR,Library/Project,3,25,12.0,0.21,3,309,0.97
+java:S1172,CODE_SMELL,MAJOR,Undefined Variables,6,25,24.0,0.42,6,200,3.0
+java:S1172,CODE_SMELL,MAJOR,Useless Statements (executed without effect),2,25,8.0,0.14,2,71,2.82
+java:S1192,CODE_SMELL,CRITICAL,Library/Project,1,2,50.0,0.07,1,309,0.32
+java:S1197,CODE_SMELL,MINOR,Library/Project,1,10,10.0,0.07,1,309,0.32
+java:S1197,CODE_SMELL,MINOR,Undefined Variables,4,10,40.0,0.28,4,200,2.0
+java:S1206,BUG,MINOR,Behavior Conflicting,1,2,50.0,0.07,1,420,0.24
+java:S1206,BUG,MINOR,Library/Project,1,2,50.0,0.07,1,309,0.32
+java:S125,CODE_SMELL,MAJOR,Behavior Conflicting,2,2,100.0,0.14,2,420,0.48
+java:S125,CODE_SMELL,MAJOR,Useless Statements (executed without effect),1,2,50.0,0.07,1,71,1.41
+java:S135,CODE_SMELL,MINOR,Library/Project,1,3,33.33,0.07,1,309,0.32
+java:S135,CODE_SMELL,MINOR,Undefined Variables,1,3,33.33,0.07,1,200,0.5
+java:S1481,CODE_SMELL,MINOR,Library/Project,1,1,100.0,0.07,1,309,0.32
+java:S1488,CODE_SMELL,MINOR,Behavior Conflicting,3,16,18.75,0.21,3,420,0.71
+java:S1488,CODE_SMELL,MINOR,Data Conflicting,1,16,6.25,0.07,1,50,2.0
+java:S1488,CODE_SMELL,MINOR,Library/Project,3,16,18.75,0.21,3,309,0.97
+java:S1488,CODE_SMELL,MINOR,Undefined Variables,3,16,18.75,0.21,2,200,1.0
+java:S1488,CODE_SMELL,MINOR,Useless Statements (executed without effect),1,16,6.25,0.07,1,71,1.41
+java:S1604,CODE_SMELL,MAJOR,Algorithm,1,2,50.0,0.07,1,60,1.67
+java:S1659,CODE_SMELL,MINOR,Library/Project,1,1,100.0,0.07,1,309,0.32
+java:S1854,CODE_SMELL,MAJOR,Algorithm,20,702,2.85,1.4,16,60,26.67
+java:S1854,CODE_SMELL,MAJOR,Behavior Conflicting,70,702,9.97,4.91,47,420,11.19
+java:S1854,CODE_SMELL,MAJOR,Common Sense,2,702,0.28,0.14,1,3,33.33
+java:S1854,CODE_SMELL,MAJOR,Data Conflicting,4,702,0.57,0.28,1,50,2.0
+java:S1854,CODE_SMELL,MAJOR,Library/Project,160,702,22.79,11.22,71,309,22.98
+java:S1854,CODE_SMELL,MAJOR,Undefined Variables,114,702,16.24,7.99,55,200,27.5
+java:S1854,CODE_SMELL,MAJOR,Useless Statements (executed without effect),40,702,5.7,2.81,21,71,29.58
+java:S2189,BUG,BLOCKER,Useless Statements (executed without effect),1,2,50.0,0.07,1,71,1.41
+java:S2293,CODE_SMELL,MINOR,Library/Project,2,3,66.67,0.14,2,309,0.65
+java:S2293,CODE_SMELL,MINOR,Undefined Variables,1,3,33.33,0.07,1,200,0.5
+java:S3012,CODE_SMELL,MINOR,Algorithm,2,11,18.18,0.14,2,60,3.33
+java:S3012,CODE_SMELL,MINOR,Behavior Conflicting,5,11,45.45,0.35,5,420,1.19
+java:S3012,CODE_SMELL,MINOR,Library/Project,1,11,9.09,0.07,1,309,0.32
+java:S3626,CODE_SMELL,MINOR,Undefined Variables,1,2,50.0,0.07,1,200,0.5
+java:S3740,CODE_SMELL,MAJOR,Behavior Conflicting,2,2,100.0,0.14,2,420,0.48
+java:S3776,CODE_SMELL,CRITICAL,Library/Project,6,11,54.55,0.42,6,309,1.94
+java:S3776,CODE_SMELL,CRITICAL,Undefined Variables,2,11,18.18,0.14,2,200,1.0
+java:S4719,CODE_SMELL,MINOR,Library/Project,1,1,100.0,0.07,1,309,0.32
+java:S6201,CODE_SMELL,MINOR,Algorithm,1,10,10.0,0.07,1,60,1.67
+java:S6201,CODE_SMELL,MINOR,Library/Project,2,10,20.0,0.14,1,309,0.32
+java:S6208,CODE_SMELL,INFO,Library/Project,2,4,50.0,0.14,1,309,0.32
+python:S1066,CODE_SMELL,MAJOR,Data Conflicting,1,19,5.26,0.07,1,50,2.0
+python:S112,CODE_SMELL,MAJOR,Behavior Conflicting,2,7,28.57,0.14,2,420,0.48
+python:S112,CODE_SMELL,MAJOR,Library/Project,1,7,14.29,0.07,1,309,0.32
+python:S117,CODE_SMELL,MINOR,Behavior Conflicting,7,15,46.67,0.49,7,420,1.67
+python:S117,CODE_SMELL,MINOR,Computer Theory,1,15,6.67,0.07,1,27,3.7
+python:S1172,CODE_SMELL,MAJOR,Algorithm,6,109,5.5,0.42,3,60,5.0
+python:S1172,CODE_SMELL,MAJOR,Behavior Conflicting,15,109,13.76,1.05,12,420,2.86
+python:S1172,CODE_SMELL,MAJOR,Computer Theory,2,109,1.83,0.14,2,27,7.41
+python:S1172,CODE_SMELL,MAJOR,Data Conflicting,3,109,2.75,0.21,3,50,6.0
+python:S1172,CODE_SMELL,MAJOR,Library/Project,18,109,16.51,1.26,10,309,3.24
+python:S1172,CODE_SMELL,MAJOR,Mathematics & Natural Science,1,109,0.92,0.07,1,17,5.88
+python:S1172,CODE_SMELL,MAJOR,Undefined Variables,3,109,2.75,0.21,3,200,1.5
+python:S1172,CODE_SMELL,MAJOR,Useless Statements (executed without effect),1,109,0.92,0.07,1,71,1.41
+python:S1172,CODE_SMELL,MAJOR,Useless Statements (unexecuted),1,109,0.92,0.07,1,7,14.29
+python:S1192,CODE_SMELL,CRITICAL,Behavior Conflicting,1,2,50.0,0.07,1,420,0.24
+python:S1226,BUG,MINOR,Algorithm,2,5,40.0,0.14,2,60,3.33
+python:S1226,BUG,MINOR,Behavior Conflicting,2,5,40.0,0.14,2,420,0.48
+python:S1481,CODE_SMELL,MINOR,Algorithm,5,45,11.11,0.35,1,60,1.67
+python:S1481,CODE_SMELL,MINOR,Behavior Conflicting,3,45,6.67,0.21,3,420,0.71
+python:S1481,CODE_SMELL,MINOR,Data Conflicting,4,45,8.89,0.28,3,50,6.0
+python:S1481,CODE_SMELL,MINOR,Library/Project,3,45,6.67,0.21,3,309,0.97
+python:S1481,CODE_SMELL,MINOR,Useless Statements (executed without effect),3,45,6.67,0.21,1,71,1.41
+python:S1542,CODE_SMELL,MAJOR,Behavior Conflicting,7,61,11.48,0.49,7,420,1.67
+python:S1542,CODE_SMELL,MAJOR,Computer Theory,3,61,4.92,0.21,3,27,11.11
+python:S1542,CODE_SMELL,MAJOR,Library/Project,2,61,3.28,0.14,2,309,0.65
+python:S1542,CODE_SMELL,MAJOR,Useless Statements (executed without effect),1,61,1.64,0.07,1,71,1.41
+python:S1542,CODE_SMELL,MAJOR,Useless Statements (unexecuted),1,61,1.64,0.07,1,7,14.29
+python:S1656,BUG,MAJOR,Algorithm,4,4,100.0,0.28,1,60,1.67
+python:S1656,BUG,MAJOR,Behavior Conflicting,4,4,100.0,0.28,1,420,0.24
+python:S1854,CODE_SMELL,MAJOR,Computer Theory,1,40,2.5,0.07,1,27,3.7
+python:S1854,CODE_SMELL,MAJOR,Library/Project,10,40,25.0,0.7,2,309,0.65
+python:S1854,CODE_SMELL,MAJOR,Useless Statements (executed without effect),1,40,2.5,0.07,1,71,1.41
+python:S1862,BUG,MAJOR,Library/Project,2,9,22.22,0.14,1,309,0.32
+python:S1871,CODE_SMELL,MAJOR,Behavior Conflicting,1,4,25.0,0.07,1,420,0.24
+python:S1871,CODE_SMELL,MAJOR,Mathematics & Natural Science,1,4,25.0,0.07,1,17,5.88
+python:S2190,BUG,BLOCKER,Behavior Conflicting,2,4,50.0,0.14,2,420,0.48
+python:S2190,BUG,BLOCKER,Useless Statements (unexecuted),1,4,25.0,0.07,1,7,14.29
+python:S2275,BUG,BLOCKER,Undefined Variables,1,1,100.0,0.07,1,200,0.5
+python:S3358,CODE_SMELL,MAJOR,Behavior Conflicting,1,1,100.0,0.07,1,420,0.24
+python:S3457,CODE_SMELL,MAJOR,Behavior Conflicting,1,1,100.0,0.07,1,420,0.24
+python:S3776,CODE_SMELL,CRITICAL,Behavior Conflicting,5,37,13.51,0.35,5,420,1.19
+python:S3776,CODE_SMELL,CRITICAL,Fragmented Logics,1,37,2.7,0.07,1,21,4.76
+python:S3776,CODE_SMELL,CRITICAL,Library/Project,9,37,24.32,0.63,9,309,2.91
+python:S3923,BUG,MAJOR,Library/Project,1,2,50.0,0.07,1,309,0.32
+python:S5603,CODE_SMELL,MAJOR,Behavior Conflicting,1,1,100.0,0.07,1,420,0.24
+python:S5603,CODE_SMELL,MAJOR,Fragmented Logics,1,1,100.0,0.07,1,21,4.76
+python:S5756,BUG,BLOCKER,Algorithm,1,1,100.0,0.07,1,60,1.67
+python:S5806,CODE_SMELL,MAJOR,Behavior Conflicting,1,11,9.09,0.07,1,420,0.24
+python:S5855,BUG,MAJOR,Computer Theory,1,3,33.33,0.07,1,27,3.7
+python:S5869,CODE_SMELL,MAJOR,Computer Theory,2,5,40.0,0.14,1,27,3.7
+python:S6326,CODE_SMELL,MAJOR,Library/Project,1,1,100.0,0.07,1,309,0.32
+python:S6353,CODE_SMELL,MINOR,Behavior Conflicting,1,16,6.25,0.07,1,420,0.24
+python:S6353,CODE_SMELL,MINOR,Computer Theory,1,16,6.25,0.07,1,27,3.7
+python:S6395,CODE_SMELL,MAJOR,Computer Theory,1,4,25.0,0.07,1,27,3.7
+python:S6397,CODE_SMELL,MAJOR,Computer Theory,1,4,25.0,0.07,1,27,3.7
+python:S930,BUG,BLOCKER,Library/Project,1,1,100.0,0.07,1,309,0.32

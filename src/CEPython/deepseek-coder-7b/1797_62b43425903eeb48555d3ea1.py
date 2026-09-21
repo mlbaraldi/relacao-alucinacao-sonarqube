@@ -1,0 +1,12 @@
+import re
+from typing import Pattern
+
+
+def _create_in_regex(self) -> Pattern:
+    """
+    Create the in-style parameter regular expression.
+
+    Returns the in-style parameter regular expression (:class:`re.Pattern`).
+    """
+    in_regex = re.compile(r'\bin\b')
+    return in_regex

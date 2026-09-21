@@ -1,0 +1,4 @@
+
+
+def from_raw_values(cls, values):
+    return cls(values)

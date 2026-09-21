@@ -1,0 +1,8 @@
+
+
+def _c_optimizations_available():
+    try:
+        import _c_optimizations
+        return _c_optimizations
+    except ImportError:
+        return False
