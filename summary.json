@@ -1,0 +1,26 @@
+{
+  "sonar_issues": 1426,
+  "files_with_issues": 838,
+  "labeled_issue_rows": 682,
+  "unlabeled_issue_rows": 744,
+  "failed_issue_rows": 986,
+  "paper_type_issue_counts": {
+    "<unlabeled>": 744,
+    "Fragmented Logics": 3,
+    "Algorithm": 50,
+    "Undefined Variables": 155,
+    "Behavior Conflicting": 160,
+    "Library/Project": 266,
+    "Useless Statements (executed without effect)": 65,
+    "Data Conflicting": 13,
+    "Common Sense": 3,
+    "Computer Theory": 13,
+    "Mathematics & Natural Science": 2,
+    "Useless Statements (unexecuted)": 3
+  },
+  "candidate_mapping_counts": {
+    "not-directly-mappable": 1071,
+    "direct/proxy": 289,
+    "quality-only": 66
+  }
+}

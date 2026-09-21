@@ -1,0 +1,6 @@
+projectKey=code-hallucination-result-v2
+serverUrl=http://127.0.0.1:9001
+serverVersion=10.0.0.68432
+dashboardUrl=http://127.0.0.1:9001/dashboard?id=code-hallucination-result-v2
+ceTaskId=AaDGPJyeTMl_Abnzf-PI
+ceTaskUrl=http://127.0.0.1:9001/api/ce/task?id=AaDGPJyeTMl_Abnzf-PI

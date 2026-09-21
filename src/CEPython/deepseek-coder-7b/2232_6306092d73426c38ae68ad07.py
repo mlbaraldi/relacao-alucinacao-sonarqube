@@ -1,0 +1,10 @@
+
+
+def validate_requires_args(self, args):
+    """
+    Check if all the required arguments have been provided.
+    """
+    for arg in required_args:
+        if arg not in args:
+            return False
+    return True

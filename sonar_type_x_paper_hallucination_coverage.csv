@@ -1,0 +1,19 @@
+sonar_issue_type,paper_hallucination_type,relation_issue_count,sonar_issue_type_total,relation_coverage_of_sonar_type_pct,relation_coverage_of_all_sonar_issues_pct,responses_with_relation,paper_labeled_responses,paper_type_coverage_pct
+BUG,Algorithm,7,35,20.0,0.49,4,60,6.67
+BUG,Behavior Conflicting,9,35,25.71,0.63,6,420,1.43
+BUG,Computer Theory,1,35,2.86,0.07,1,27,3.7
+BUG,Library/Project,5,35,14.29,0.35,3,309,0.97
+BUG,Undefined Variables,1,35,2.86,0.07,1,200,0.5
+BUG,Useless Statements (executed without effect),1,35,2.86,0.07,1,71,1.41
+BUG,Useless Statements (unexecuted),1,35,2.86,0.07,1,7,14.29
+CODE_SMELL,Algorithm,43,1391,3.09,3.02,30,60,50.0
+CODE_SMELL,Behavior Conflicting,151,1391,10.86,10.59,112,420,26.67
+CODE_SMELL,Common Sense,3,1391,0.22,0.21,1,3,33.33
+CODE_SMELL,Computer Theory,12,1391,0.86,0.84,8,27,29.63
+CODE_SMELL,Data Conflicting,13,1391,0.93,0.91,6,50,12.0
+CODE_SMELL,Fragmented Logics,3,1391,0.22,0.21,2,21,9.52
+CODE_SMELL,Library/Project,261,1391,18.76,18.3,118,309,38.19
+CODE_SMELL,Mathematics & Natural Science,2,1391,0.14,0.14,2,17,11.76
+CODE_SMELL,Undefined Variables,154,1391,11.07,10.8,81,200,40.5
+CODE_SMELL,Useless Statements (executed without effect),64,1391,4.6,4.49,34,71,47.89
+CODE_SMELL,Useless Statements (unexecuted),2,1391,0.14,0.14,2,7,28.57
