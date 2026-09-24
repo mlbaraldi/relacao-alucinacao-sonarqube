@@ -1,0 +1,6 @@
+package generated;
+public class Generated0b7ee3ad6d79 {
+public String toString(){
+    return new String(value, 0, count);
+}
+}
