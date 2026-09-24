@@ -1,0 +1,125 @@
+sonar_rule,paper_type,issues
+java:S106,Behavior Conflicting,2
+java:S106,Undefined Variables,4
+java:S106,Useless Statements (executed without effect),7
+java:S1066,Library/Project,1
+java:S112,Library/Project,4
+java:S1126,Behavior Conflicting,1
+java:S1126,Common Sense,1
+java:S1126,Fragmented Logics,1
+java:S1126,Undefined Variables,1
+java:S1126,Useless Statements (executed without effect),1
+java:S1135,Library/Project,1
+java:S1135,Useless Statements (executed without effect),1
+java:S1144,Algorithm,4
+java:S1144,Behavior Conflicting,5
+java:S1144,Library/Project,15
+java:S1144,Undefined Variables,8
+java:S1144,Useless Statements (executed without effect),1
+java:S1149,Behavior Conflicting,2
+java:S1168,Algorithm,3
+java:S1168,Behavior Conflicting,6
+java:S1168,Undefined Variables,1
+java:S117,Library/Project,5
+java:S1172,Behavior Conflicting,4
+java:S1172,Library/Project,2
+java:S1172,Undefined Variables,5
+java:S1172,Useless Statements (executed without effect),2
+java:S1192,Library/Project,1
+java:S1197,Library/Project,1
+java:S1197,Undefined Variables,4
+java:S1206,Undefined Variables,1
+java:S125,Behavior Conflicting,2
+java:S125,Useless Statements (executed without effect),1
+java:S135,Library/Project,1
+java:S135,Undefined Variables,1
+java:S1481,Library/Project,1
+java:S1488,Behavior Conflicting,3
+java:S1488,Data Conflicting,1
+java:S1488,Library/Project,3
+java:S1488,Undefined Variables,3
+java:S1488,Useless Statements (executed without effect),1
+java:S1604,Undefined Variables,1
+java:S1659,Library/Project,1
+java:S1854,Algorithm,24
+java:S1854,Behavior Conflicting,67
+java:S1854,Common Sense,5
+java:S1854,Computer Theory,2
+java:S1854,Data Conflicting,4
+java:S1854,Library/Project,164
+java:S1854,Undefined Variables,132
+java:S1854,Useless Statements (executed without effect),42
+java:S1905,Useless Statements (executed without effect),1
+java:S2129,Behavior Conflicting,1
+java:S2129,Undefined Variables,1
+java:S2189,Useless Statements (executed without effect),1
+java:S2259,Undefined Variables,1
+java:S2293,Library/Project,2
+java:S2293,Undefined Variables,1
+java:S3012,Algorithm,2
+java:S3012,Behavior Conflicting,5
+java:S3012,Library/Project,1
+java:S3626,Undefined Variables,1
+java:S3740,Behavior Conflicting,1
+java:S3776,Library/Project,6
+java:S3776,Undefined Variables,2
+java:S5738,Behavior Conflicting,1
+java:S6201,Algorithm,1
+java:S6201,Library/Project,2
+java:S6208,Library/Project,2
+python:S1066,Data Conflicting,1
+python:S112,Behavior Conflicting,2
+python:S112,Library/Project,1
+python:S117,Behavior Conflicting,7
+python:S117,Computer Theory,1
+python:S1172,Algorithm,6
+python:S1172,Behavior Conflicting,15
+python:S1172,Computer Theory,2
+python:S1172,Data Conflicting,3
+python:S1172,Library/Project,18
+python:S1172,Mathematics & Natural Science,1
+python:S1172,Undefined Variables,3
+python:S1172,Useless Statements (executed without effect),1
+python:S1172,Useless Statements (unexecuted),1
+python:S1192,Behavior Conflicting,1
+python:S1226,Algorithm,2
+python:S1226,Behavior Conflicting,2
+python:S1481,Algorithm,5
+python:S1481,Behavior Conflicting,3
+python:S1481,Data Conflicting,4
+python:S1481,Library/Project,3
+python:S1481,Useless Statements (executed without effect),3
+python:S1542,Behavior Conflicting,7
+python:S1542,Computer Theory,3
+python:S1542,Library/Project,2
+python:S1542,Useless Statements (executed without effect),1
+python:S1542,Useless Statements (unexecuted),1
+python:S1656,Algorithm,4
+python:S1656,Behavior Conflicting,4
+python:S1854,Computer Theory,1
+python:S1854,Library/Project,10
+python:S1854,Useless Statements (executed without effect),1
+python:S1862,Library/Project,2
+python:S1871,Behavior Conflicting,1
+python:S1871,Mathematics & Natural Science,1
+python:S2190,Behavior Conflicting,2
+python:S2190,Useless Statements (unexecuted),1
+python:S2275,Undefined Variables,1
+python:S3358,Behavior Conflicting,1
+python:S3457,Behavior Conflicting,1
+python:S3776,Behavior Conflicting,5
+python:S3776,Fragmented Logics,1
+python:S3776,Library/Project,9
+python:S3923,Library/Project,1
+python:S5603,Behavior Conflicting,1
+python:S5603,Fragmented Logics,1
+python:S5756,Algorithm,1
+python:S5806,Behavior Conflicting,1
+python:S5855,Computer Theory,1
+python:S5869,Computer Theory,2
+python:S6326,Library/Project,1
+python:S6353,Behavior Conflicting,1
+python:S6353,Computer Theory,1
+python:S6395,Computer Theory,1
+python:S6397,Computer Theory,1
+python:S930,Library/Project,1

@@ -1,0 +1,315 @@
+INFO: Scanner configuration file: /opt/sonar-scanner/conf/sonar-scanner.properties
+INFO: Project root configuration file: /usr/src/sonar-project.properties
+INFO: SonarScanner 5.0.1.3006
+INFO: Java 17.0.10 Alpine (64-bit)
+INFO: Linux 7.2.6-1-cachyos amd64
+INFO: User cache: /opt/sonar-scanner/.sonar/cache
+INFO: Analyzing on SonarQube server 10.0.0.68432
+INFO: Default locale: "en_US", source code encoding: "UTF-8"
+INFO: Load global settings
+INFO: Load global settings (done) | time=87ms
+INFO: Server id: 147B411E-AaDT2x8GTc6JTbSns6V7
+INFO: User cache: /opt/sonar-scanner/.sonar/cache
+INFO: Load/download plugins
+INFO: Load plugins index
+INFO: Load plugins index (done) | time=68ms
+INFO: Load/download plugins (done) | time=1179ms
+INFO: Process project properties
+INFO: Process project properties (done) | time=3ms
+INFO: Execute project builders
+INFO: Execute project builders (done) | time=1ms
+INFO: Project key: code-hallucination-result-v2
+INFO: Base dir: /usr/src
+INFO: Working dir: /usr/src/.scannerwork
+INFO: Load project settings for component key: 'code-hallucination-result-v2'
+INFO: Load quality profiles
+INFO: Load quality profiles (done) | time=129ms
+INFO: Load active rules
+INFO: Load active rules (done) | time=1670ms
+INFO: Load analysis cache
+INFO: Load analysis cache (404) | time=49ms
+WARN: The properties 'sonar.login' and 'sonar.password' are deprecated and will be removed in the future. Please pass a token with the 'sonar.token' property instead.
+INFO: Load project repositories
+INFO: Load project repositories (done) | time=49ms
+INFO: Indexing files...
+INFO: Project configuration:
+INFO: 1134 files indexed
+INFO: Quality profile for java: Sonar way
+INFO: Quality profile for py: Sonar way
+INFO: ------------- Run sensors on module Code hallucination result
+INFO: Load metrics repository
+INFO: Load metrics repository (done) | time=57ms
+INFO: Sensor JavaSensor [java]
+INFO: Configured Java source version (sonar.java.source): 17
+INFO: JavaClasspath initialization
+INFO: JavaClasspath initialization (done) | time=1ms
+INFO: JavaTestClasspath initialization
+INFO: JavaTestClasspath initialization (done) | time=1ms
+INFO: Server-side caching is enabled. The Java analyzer will not try to leverage data from a previous analysis.
+INFO: Using ECJ batch to parse 547 Main java source files with batch size 409 KB.
+INFO: Starting batch processing.
+INFO: The Java analyzer cannot skip unchanged files in this context. A full analysis is performed for all files.
+ERROR: Unable to parse source file : 'src/CEJava/deepseek-r1/0450_636767601a6d9265ec0180e2.java'
+ERROR: Parse error at line 1 column 0: Syntax error on tokens, delete these tokens
+ERROR: Unable to parse source file : 'src/CEJava/deepseek-coder-1.3b/0368_636767de1a6d9265ec018726.java'
+ERROR: Parse error at line 4 column 4: Syntax error on token ",", . expected
+ERROR: Unable to parse source file : 'src/CEJava/gpt-4/0346_636767611a6d9265ec018112.java'
+ERROR: Parse error at line 2 column 35: Syntax error, insert "}" to complete ClassBody
+ERROR: Unable to parse source file : 'src/CEJava/deepseek-coder-7b/0454_636766831a6d9265ec0174eb.java'
+ERROR: Parse error at line 2 column 0: Syntax error on token(s), misplaced construct(s)
+ERROR: Unable to parse source file : 'src/CEJava/deepseek-coder-7b/0240_636767de1a6d9265ec01871e.java'
+ERROR: Parse error at line 4 column 4: Syntax error on token ",", . expected
+ERROR: Unable to parse source file : 'src/CEJava/codellama-7b/0304_636766fe1a6d9265ec017823.java'
+ERROR: Parse error at line 4 column 5: Syntax error on token ",", . expected
+ERROR: Unable to parse source file : 'src/CEJava/deepseek-coder-7b/0245_636766f81a6d9265ec01774b.java'
+ERROR: Parse error at line 2 column 0: Syntax error on token(s), misplaced construct(s)
+ERROR: Unable to parse source file : 'src/CEJava/deepseek-coder-7b/0369_636767de1a6d9265ec018726.java'
+ERROR: Parse error at line 2 column 35: Syntax error, insert "}" to complete ClassBody
+ERROR: Unable to parse source file : 'src/CEJava/deepseek-coder-1.3b/0343_636767611a6d9265ec018112.java'
+ERROR: Parse error at line 4 column 4: Syntax error on token ",", . expected
+ERROR: Unable to parse source file : 'src/CEJava/gpt-4/0449_636767601a6d9265ec0180e2.java'
+ERROR: Parse error at line 2 column 0: Syntax error on token(s), misplaced construct(s)
+ERROR: Unable to parse source file : 'src/CEJava/deepseek-coder-7b/0035_636767641a6d9265ec01817d.java'
+ERROR: Parse error at line 2 column 35: Syntax error, insert "}" to complete ClassBody
+ERROR: Unable to parse source file : 'src/CEJava/deepseek-coder-7b/0282_6367670b1a6d9265ec0179f2.java'
+ERROR: Parse error at line 4 column 4: Syntax error on token ",", . expected
+ERROR: Unable to parse source file : 'src/CEJava/gpt-4/0176_6367667f1a6d9265ec017458.java'
+ERROR: Parse error at line 2 column 0: Syntax error on token(s), misplaced construct(s)
+ERROR: Unable to parse source file : 'src/CEJava/deepseek-coder-7b/0303_636766fe1a6d9265ec017823.java'
+ERROR: Parse error at line 2 column 0: Syntax error on token(s), misplaced construct(s)
+ERROR: Unable to parse source file : 'src/CEJava/deepseek-coder-1.3b/0324_636767561a6d9265ec017f63.java'
+ERROR: Parse error at line 4 column 4: Syntax error on token ",", . expected
+ERROR: Unable to parse source file : 'src/CEJava/deepseek-coder-7b/0487_636767581a6d9265ec017fb4.java'
+ERROR: Parse error at line 2 column 0: Syntax error on token(s), misplaced construct(s)
+ERROR: Unable to parse source file : 'src/CEJava/deepseek-coder-1.3b/0011_6367667f1a6d9265ec017457.java'
+ERROR: Parse error at line 2 column 35: Syntax error, insert "}" to complete ClassBody
+ERROR: Unable to parse source file : 'src/CEJava/deepseek-coder-1.3b/0034_636767641a6d9265ec01817d.java'
+ERROR: Parse error at line 2 column 0: Syntax error on token(s), misplaced construct(s)
+ERROR: Unable to parse source file : 'src/CEJava/deepseek-coder-7b/0545_636767e11a6d9265ec018790.java'
+ERROR: Parse error at line 2 column 35: Syntax error, insert "}" to complete ClassBody
+ERROR: Unable to parse source file : 'src/CEJava/deepseek-r1/0357_6367675a1a6d9265ec018010.java'
+ERROR: Parse error at line 5 column 21: Syntax error, insert "AssignmentOperator Expression" to complete Expression
+ERROR: Unable to parse source file : 'src/CEJava/deepseek-coder-1.3b/0470_6367667d1a6d9265ec01741d.java'
+ERROR: Parse error at line 4 column 13: Syntax error on token "you", ; expected
+ERROR: Unable to parse source file : 'src/CEJava/deepseek-coder-1.3b/0087_6367674b1a6d9265ec017dc0.java'
+ERROR: Parse error at line 2 column 0: Syntax error on token(s), misplaced construct(s)
+ERROR: Unable to parse source file : 'src/CEJava/deepseek-coder-7b/0477_636767431a6d9265ec017c88.java'
+ERROR: Parse error at line 2 column 0: Syntax error on token(s), misplaced construct(s)
+ERROR: Unable to parse source file : 'src/CEJava/deepseek-coder-1.3b/0239_636767de1a6d9265ec01871e.java'
+ERROR: Parse error at line 4 column 4: Syntax error on token ",", . expected
+ERROR: Unable to parse source file : 'src/CEJava/deepseek-coder-1.3b/0373_6367667c1a6d9265ec0173f7.java'
+ERROR: Parse error at line 22 column 0: Syntax error, insert "}" to complete ClassBody
+ERROR: Unable to parse source file : 'src/CEJava/deepseek-coder-1.3b/0334_636767e11a6d9265ec018795.java'
+ERROR: Parse error at line 4 column 4: Syntax error on token ",", . expected
+ERROR: Unable to parse source file : 'src/CEJava/gpt-4/0193_636766fe1a6d9265ec01782a.java'
+ERROR: Parse error at line 4 column 1: Invalid character constant
+ERROR: Unable to parse source file : 'src/CEJava/deepseek-coder-1.3b/0446_636767601a6d9265ec0180e2.java'
+ERROR: Parse error at line 2 column 0: Syntax error on token(s), misplaced construct(s)
+ERROR: Unable to parse source file : 'src/CEJava/deepseek-coder-1.3b/0006_636767501a6d9265ec017e86.java'
+ERROR: Parse error at line 4 column 0: Syntax error on token(s), misplaced construct(s)
+ERROR: Unable to parse source file : 'src/CEJava/deepseek-coder-1.3b/0339_636767791a6d9265ec018263.java'
+ERROR: Parse error at line 4 column 8: Syntax error on token "a", ; expected
+INFO: 100% analyzed
+INFO: Batch processing: Done.
+INFO: Did not optimize analysis for any files, performed a full analysis for all 547 files.
+WARN: Dependencies/libraries were not provided for analysis of SOURCE files. The 'sonar.java.libraries' property is empty. Verify your configuration, as you might end up with less precise results.
+WARN: Unresolved imports/types have been detected during analysis. Enable DEBUG mode to see them.
+WARN: Use of preview features have been detected during analysis. Enable DEBUG mode to see them.
+INFO: No "Test" source files to scan.
+INFO: No "Generated" source files to scan.
+INFO: Sensor JavaSensor [java] (done) | time=2244ms
+INFO: Sensor Python Sensor [python]
+WARN: No explicit support for version 3.11. Python version has been set to 3.10.
+INFO: Starting global symbols computation
+INFO: 587 source files to be analyzed
+INFO: 587/587 source files have been analyzed
+INFO: Starting rules execution
+INFO: 587 source files to be analyzed
+ERROR: Unable to parse file: src/CEPython/deepseek-coder-1.3b/0910_6306091b73426c38ae68acd9.py
+ERROR: Parse error at line 4 column 0:
+
+    3: def workspace_manager(cls):
+  -->  It seems like you're asking for a function definition, but you didn't provide the function's description. However, I can provide a basic implementation of the function according to the description you provided. 
+    5: 
+    6: Here's a simple example in Python:
+    7: 
+    8: ```python
+    9: class WorkspaceManager:
+   10:     def __init__
+
+ERROR: Unable to parse file: src/CEPython/deepseek-coder-1.3b/0630_62b8d23948ba5a41d1c3f498.py
+ERROR: Parse error at line 4 column 0:
+
+    3: def lru_cache(maxsize=128, typed=False):
+  -->  Sure, here is a Python implementation of the LRU Cache using a dictionary. The dictionary will store the results of the function calls, and the least recently
+
+ERROR: Unable to parse file: src/HumanEval/codellama-7b/1000_HumanEval_41.py
+ERROR: Parse error at line 23 column 0:
+
+   17: )
+   18: 
+   19: 
+   20:     collisions = 0
+   21:     for i in range(n):
+   22:         for j in range(i + 1, n):
+  -->  EOF
+
+ERROR: Unable to parse file: src/CEPython/deepseek-coder-1.3b/0633_62b8d23748ba5a41d1c3f496.py
+ERROR: Parse error at line 5 column 0:
+
+    1: import heapq
+    2: 
+    3: 
+    4: def lfu_cache(maxsize=128, typed=False):
+  -->  Here is a Python implementation of a Least Frequently Used (LFU) cache using a dictionary and a heap. The dictionary will store the key-value pairs
+
+ERROR: Unable to parse file: src/CEPython/deepseek-coder-7b/0931_6306092d73426c38ae68ad04.py
+ERROR: Parse error at line 15 column 0:
+
+   11: command_name in self.commands:
+   12:         self.commands[command_name]()
+   13:         return self.parser.parse_args()
+   14:     else:
+  -->  EOF
+
+ERROR: Unable to parse file: src/CEPython/deepseek-coder-1.3b/0674_62b8b590eb7e40a82d2d1275.py
+ERROR: Parse error at line 4 column 0:
+
+    3: def _legacy_mergeOrderings(orderings):
+  -->  Here is a Python solution using list comprehension and the built-in `set` data structure:
+    5: 
+    6: ```python
+    7: def _mergeOrderings(orderings)
+
+ERROR: Unable to parse file: src/CEPython/deepseek-coder-7b/0725_62e60723d76274f8a4026b76.py
+ERROR: Parse error at line 32 column 80:
+
+   28: 
+   29:     ticks %= 1000000000
+   30: 
+   31: 
+  -->      dt = datetime.datetime(1, 1, 1, hours, minutes, seconds, ticks, tzinfo=tz) +
+   33: EOF
+
+ERROR: Unable to parse file: src/HumanEval/codellama-7b/1016_HumanEval_64.py
+ERROR: Parse error at line 2 column 5:
+
+  -->  FIX =
+    3:     count = 0
+    4:     for c in s:
+    5:         if c in "aeiouy" and c != "y" or c == "y" and s[-1
+
+ERROR: Unable to parse file: src/CEPython/deepseek-coder-7b/0634_62b8d23748ba5a41d1c3f496.py
+ERROR: Parse error at line 7 column 0:
+
+    1: import collections
+    2: import functools
+    3: import heapq
+    4: 
+    5: 
+    6: def lfu_cache(maxsize=128, typed=False):
+  -->  To implement a Least Frequently Used (LFU) cache, we need to keep track of the frequency of each key. We can use a dictionary to store
+
+ERROR: Unable to parse file: src/CEPython/deepseek-coder-1.3b/0654_62ece4982e6aefcf4aabbd75.py
+ERROR: Parse error at line 5 column 0:
+
+    1: import subprocess
+    2: 
+    3: 
+    4: def addignored(ignored):
+  -->  Sure, I can help you with that. However, please note that the function `addignored` is not defined in the provided context. I'll assume that you're
+
+ERROR: Unable to parse file: src/CEPython/deepseek-r1/0775_62b8b4baeb7e40a82d2d1137.py
+ERROR: Parse error at line 4 column 4:
+
+    1: def verifyObject(iface, candidate, tentative=False):
+    2:     from zope.interface import Invalid
+    3:     from zope.interface.exceptions import (
+  -->      from zope.interface.interface import Method
+    5:     from inspect import getfullargspec, ismethod
+    6:     errors = []
+    7: 
+    8: 
+    9:     if not tentative and not iface.providedBy(candidate):
+
+ERROR: Unable to parse file: src/HumanEval/deepseek-coder-7b/0989_HumanEval_32.py
+ERROR: Parse error at line 32 column 0:
+
+   25: ValueError("The derivative of the polynomial is zero, which means the polynomial has a constant term.")
+   26: 
+   27: 
+   28:         x1 = x0 - poly(xs, x0) / derivative
+   29: 
+   30: 
+   31:         if abs(x1 - x0) < 1e-10:   
+  -->  EOF
+
+ERROR: Unable to parse file: src/CEPython/deepseek-coder-7b/0675_62b8b590eb7e40a82d2d1275.py
+ERROR: Parse error at line 4 column 0:
+
+    3: def _legacy_mergeOrderings(orderings):
+  -->  Here is a Python solution for the problem. The idea is to use a set to keep track of the elements that have been processed and a list to
+
+INFO: 587/587 source files have been analyzed
+INFO: The Python analyzer was able to leverage cached data from previous analyses for 0 out of 587 files. These files were not parsed.
+INFO: Sensor Python Sensor [python] (done) | time=2338ms
+INFO: Sensor Cobertura Sensor for Python coverage [python]
+INFO: Sensor Cobertura Sensor for Python coverage [python] (done) | time=10ms
+INFO: Sensor PythonXUnitSensor [python]
+INFO: Sensor PythonXUnitSensor [python] (done) | time=8ms
+INFO: Sensor JaCoCo XML Report Importer [jacoco]
+INFO: 'sonar.coverage.jacoco.xmlReportPaths' is not defined. Using default locations: target/site/jacoco/jacoco.xml,target/site/jacoco-it/jacoco.xml,build/reports/jacoco/test/jacocoTestReport.xml
+INFO: No report imported, no coverage information will be imported by JaCoCo XML Report Importer
+INFO: Sensor JaCoCo XML Report Importer [jacoco] (done) | time=0ms
+INFO: Sensor CSS Rules [javascript]
+INFO: No CSS, PHP, HTML or VueJS files are found in the project. CSS analysis is skipped.
+INFO: Sensor CSS Rules [javascript] (done) | time=1ms
+INFO: Sensor C# Project Type Information [csharp]
+INFO: Sensor C# Project Type Information [csharp] (done) | time=1ms
+INFO: Sensor C# Analysis Log [csharp]
+INFO: Sensor C# Analysis Log [csharp] (done) | time=6ms
+INFO: Sensor C# Properties [csharp]
+INFO: Sensor C# Properties [csharp] (done) | time=0ms
+INFO: Sensor SurefireSensor [java]
+INFO: parsing [/usr/src/target/surefire-reports]
+INFO: Sensor SurefireSensor [java] (done) | time=0ms
+INFO: Sensor HTML [web]
+INFO: Sensor HTML [web] (done) | time=2ms
+INFO: Sensor TextAndSecretsSensor [text]
+INFO: 1134 source files to be analyzed
+INFO: 1134/1134 source files have been analyzed
+INFO: Sensor TextAndSecretsSensor [text] (done) | time=73ms
+INFO: Sensor VB.NET Project Type Information [vbnet]
+INFO: Sensor VB.NET Project Type Information [vbnet] (done) | time=1ms
+INFO: Sensor VB.NET Analysis Log [vbnet]
+INFO: Sensor VB.NET Analysis Log [vbnet] (done) | time=5ms
+INFO: Sensor VB.NET Properties [vbnet]
+INFO: Sensor VB.NET Properties [vbnet] (done) | time=0ms
+INFO: Sensor IaC Docker Sensor [iac]
+INFO: 0 source files to be analyzed
+INFO: 0/0 source files have been analyzed
+INFO: Sensor IaC Docker Sensor [iac] (done) | time=41ms
+INFO: ------------- Run sensors on project
+INFO: Sensor Analysis Warnings import [csharp]
+INFO: Sensor Analysis Warnings import [csharp] (done) | time=1ms
+INFO: Sensor Zero Coverage Sensor
+INFO: Sensor Zero Coverage Sensor (done) | time=24ms
+INFO: Sensor Java CPD Block Indexer
+INFO: Sensor Java CPD Block Indexer (done) | time=39ms
+INFO: SCM Publisher is disabled
+INFO: CPD Executor 760 files had no CPD blocks
+INFO: CPD Executor Calculating CPD for 361 files
+INFO: CPD Executor CPD calculation finished (done) | time=22ms
+INFO: Analysis report generated in 51ms, dir size=1.8 MB
+INFO: Analysis report compressed in 536ms, zip size=2.0 MB
+INFO: Analysis report uploaded in 169ms
+INFO: ANALYSIS SUCCESSFUL, you can find the results at: http://127.0.0.1:9001/dashboard?id=code-hallucination-result-v2
+INFO: Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+INFO: More about the report processing at http://127.0.0.1:9001/api/ce/task?id=AaDT24pTTc6JTbSntERd
+INFO: Analysis total time: 8.474 s
+INFO: ------------------------------------------------------------------------
+INFO: EXECUTION SUCCESS
+INFO: ------------------------------------------------------------------------
+INFO: Total time: 10.287s
+INFO: Final Memory: 44M/216M
+INFO: ------------------------------------------------------------------------
