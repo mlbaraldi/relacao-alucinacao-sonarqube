@@ -1,0 +1,16 @@
+# Ambientes virtuais Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Estado temporário do SonarScanner
+.scannerwork/
+
+# Estado local de ferramentas
+.code-review-graph/
+
+# Sistema / editor
+.DS_Store
+*.swp
