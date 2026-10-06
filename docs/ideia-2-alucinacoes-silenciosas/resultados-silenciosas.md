@@ -1,6 +1,6 @@
 # Alucinações silenciosas — o que escapa aos testes e à análise estática (DRAFT)
 
-> Nova hipótese (branch `alucinacoes-silenciosas`). Reaproveita o corpus e os artefatos existentes. Universo: **1.134 implementações com alucinação anotada** (todas têm ≥1 tipo; não há classe "sem alucinação"). Análise: `scripts/analise_silenciosas.py`. Dados: `sonarqube_labeled/artifacts/coverage_gates.csv` e `prediction_auc.csv`. Figura: `docs/fig-cobertura-gates.png`.
+> Nova hipótese (branch `alucinacoes-silenciosas`). Reaproveita o corpus e os artefatos existentes. Universo: **1.134 implementações com alucinação anotada** (todas têm ≥1 tipo; não há classe "sem alucinação"). Análise: `scripts/analise_silenciosas.py`. Dados: `sonarqube_labeled/artifacts/coverage_gates.csv` e `prediction_auc.csv`. Figura: `docs/ideia-2-alucinacoes-silenciosas/fig-cobertura-gates.png`.
 
 ## RQ
 Que fração e tipos de alucinações **sobrevivem** ao teste funcional e/ou ao scan estático (SonarQube), e como esse risco varia por modelo, benchmark e tipo?

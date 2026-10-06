@@ -7,7 +7,7 @@ A) Piloto preditivo: features de análise estática (regras Sonar) predizem o TI
    CV agrupado por tarefa + transferência cross-model (gate: AUC >= 0.6).
 
 Uso: python scripts/analise_silenciosas.py
-Salva CSVs em sonarqube_labeled/artifacts/ e figura em docs/.
+Salva CSVs em sonarqube_labeled/artifacts/ e figura em docs/ideia-2-alucinacoes-silenciosas/.
 """
 import json
 from collections import defaultdict
@@ -201,5 +201,5 @@ ax[1].set_title('Escapa da análise estática, por tipo de alucinação')
 ax[1].grid(axis='x', alpha=0.25)
 fig.tight_layout()
 fig.text(0.5, -0.02, '* n < 10: estimativa frágil (poucos casos)', ha='center', fontsize=7, color='#555555')
-fig.savefig(ROOT / 'docs' / 'fig-cobertura-gates.png', dpi=300, bbox_inches='tight')
-print('\nSalvos: coverage_gates.csv, prediction_auc.csv, docs/fig-cobertura-gates.png')
+fig.savefig(ROOT / 'docs' / 'ideia-2-alucinacoes-silenciosas' / 'fig-cobertura-gates.png', dpi=300, bbox_inches='tight')
+print('\nSalvos: coverage_gates.csv, prediction_auc.csv, docs/ideia-2-alucinacoes-silenciosas/fig-cobertura-gates.png')

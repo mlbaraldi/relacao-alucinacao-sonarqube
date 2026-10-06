@@ -20,7 +20,7 @@ O repositório contém dois conjuntos de respostas lado a lado, cada um com a me
 
 - `full_dataset/`: conjunto completo de respostas (1.150 de `CEJava`, 1.150 de `CEPython` e 820 de `HumanEval`, distribuídas entre cinco modelos).
 - `sonarqube_labeled/`: subconjunto apenas das respostas que têm rótulo manual associado a issues SonarQube. Além dos itens acima, contém `statistical_analysis/` (notebooks) e, em `artifacts/`, o `input.jsonl` de origem.
-- `docs/`: documentação textual do trabalho (por exemplo, `3-metodologia_v2.tex` e `resultados-exploratorios.md`).
+- `docs/`: documentação separada por hipótese — `ideia-1-associacao-tipo-regra/` (associação entre tipo de alucinação e regra do SonarQube) e `ideia-2-alucinacoes-silenciosas/` (cobertura dos gates teste × análise estática); `referencias.bib` é compartilhado.
 
 A configuração do scanner (`sonar-project.properties`) é igual nos dois conjuntos: usa `src` como fonte e exclui quatro regras Java ligadas ao andaime sintético — `S101`, `S1118`, `S1220` e `S1598`.
 
