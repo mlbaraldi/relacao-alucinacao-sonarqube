@@ -8,22 +8,33 @@ O SonarQube aponta problemas de código (por exemplo, bugs e code smells); ele n
 
 ## Conteúdo
 
-- `src/`: respostas de código separadas por dataset e modelo (`src/<dataset>/<modelo>/`). Inclui `CEJava`, `CEPython` e `HumanEval`.
-- `sonar-project.properties`: configuração do projeto enviada ao scanner. A análise usa `src` como fonte e exclui quatro regras Java ligadas ao andaime sintético: `S101`, `S1118`, `S1220` e `S1598`.
-- `artifacts/`: artefatos gerados pela análise SonarQube (detalhados abaixo).
+O repositório contém dois conjuntos de respostas lado a lado, cada um com a mesma hierarquia interna:
+
+```
+<conjunto>/
+├── src/                      respostas de código em src/<dataset>/<modelo>/
+├── artifacts/                JSONs, CSVs e log gerados pela análise
+├── classes/                  classes compiladas usadas como sonar.java.binaries
+└── sonar-project.properties  configuração enviada ao scanner
+```
+
+- `full_dataset/`: conjunto completo de respostas (1.150 de `CEJava`, 1.150 de `CEPython` e 820 de `HumanEval`, distribuídas entre cinco modelos).
+- `sonarqube_labeled/`: subconjunto apenas das respostas que têm rótulo manual associado a issues SonarQube. Além dos itens acima, contém `statistical_analysis/` (notebooks) e, em `artifacts/`, o `input.jsonl` de origem.
 - `docs/`: documentação textual do trabalho (por exemplo, `3-metodologia.tex`).
-- `classes/`: diretório de classes compiladas usado como `sonar.java.binaries` pelo scanner.
-- `analysis/sonarqube_labeled/`: subconjunto rotulado e os notebooks de análise estatística.
 
-### Artefatos (`artifacts/`)
+A configuração do scanner (`sonar-project.properties`) é igual nos dois conjuntos: usa `src` como fonte e exclui quatro regras Java ligadas ao andaime sintético — `S101`, `S1118`, `S1220` e `S1598`.
 
-- `artifacts/metadata.jsonl`: um registro JSON por resposta, com identificador, dataset, modelo, arquivo de origem, resultado da avaliação e anotações. `source_file` liga o registro ao arquivo em `src/`; `code_labels` contém os tipos anotados manualmente.
-- `artifacts/sonar_issues.json`: issues obtidas do SonarQube, antes do mapeamento aos metadados.
-- `artifacts/mapped_issues.json`: as mesmas issues enriquecidas com dataset, modelo, número da resposta, tipos do paper e informações de avaliação.
-- `artifacts/summary.json`: contagens resumidas usadas na análise.
-- `artifacts/report.md`: relatório tabular e discussão dos resultados desta execução.
-- `artifacts/sonar_scan.log`: log do scanner, útil para conferir a versão usada e problemas de parsing.
-- Os quatro CSVs em `artifacts/` descritos abaixo: agregações para análise em planilha ou scripts de análise.
+### Artefatos (`full_dataset/artifacts/`)
+
+O subconjunto `sonarqube_labeled/artifacts/` segue o mesmo layout, com os artefatos restritos às respostas rotuladas (e o `input.jsonl` adicional).
+
+- `full_dataset/artifacts/metadata.jsonl`: um registro JSON por resposta, com identificador, dataset, modelo, arquivo de origem, resultado da avaliação e anotações. `source_file` liga o registro ao arquivo em `src/`; `code_labels` contém os tipos anotados manualmente.
+- `full_dataset/artifacts/sonar_issues.json`: issues obtidas do SonarQube, antes do mapeamento aos metadados.
+- `full_dataset/artifacts/mapped_issues.json`: as mesmas issues enriquecidas com dataset, modelo, número da resposta, tipos do paper e informações de avaliação.
+- `full_dataset/artifacts/summary.json`: contagens resumidas usadas na análise.
+- `full_dataset/artifacts/report.md`: relatório tabular e discussão dos resultados desta execução.
+- `full_dataset/artifacts/sonar_scan.log`: log do scanner, útil para conferir a versão usada e problemas de parsing.
+- Os quatro CSVs em `full_dataset/artifacts/` descritos abaixo: agregações para análise em planilha ou scripts de análise.
 
 O conjunto tem 3.120 respostas materializadas nos metadados: 1.150 de `CEJava`, 1.150 de `CEPython` e 820 de `HumanEval`, distribuídas igualmente entre cinco modelos. O relatório desta execução registra 1.426 issues em 838 arquivos e 1.134 respostas com rótulo manual.
 
@@ -31,7 +42,7 @@ O conjunto tem 3.120 respostas materializadas nos metadados: 1.150 de `CEJava`, 
 
 Os CSVs usam cabeçalho na primeira linha, codificação UTF-8 e vírgula como separador. Em geral, `paper_hallucination_type`/`paper_type` vazio ou `<unlabeled>` significa que a resposta não tinha tipo manual associado; não significa “sem alucinação”. Uma resposta pode ter mais de um tipo manual, então seus issues podem aparecer em mais de uma linha/tipo. Totais por tipo não devem ser somados como se fossem categorias exclusivas.
 
-### `artifacts/sonar_rule_summary.csv`
+### `full_dataset/artifacts/sonar_rule_summary.csv`
 
 Distribuição de todas as issues por regra Sonar e tipo de issue.
 
@@ -41,7 +52,7 @@ Distribuição de todas as issues por regra Sonar e tipo de issue.
 | `sonar_type` | Categoria atribuída pelo SonarQube, por exemplo `BUG` ou `CODE_SMELL`. |
 | `issues` | Número de issues dessa regra e categoria. |
 
-### `artifacts/sonar_rule_by_paper_type.csv`
+### `full_dataset/artifacts/sonar_rule_by_paper_type.csv`
 
 Contagem de issues por regra Sonar e rótulo manual do paper. `<unlabeled>` agrupa issues cujo arquivo não tem rótulo manual correspondente nos metadados.
 
@@ -51,7 +62,7 @@ Contagem de issues por regra Sonar e rótulo manual do paper. `<unlabeled>` agru
 | `paper_type` | Tipo manual associado à resposta ou `<unlabeled>`. |
 | `issues` | Número de issues na combinação. |
 
-### `artifacts/sonar_type_x_paper_hallucination_coverage.csv`
+### `full_dataset/artifacts/sonar_type_x_paper_hallucination_coverage.csv`
 
 Cruzamento agregado entre a categoria geral da issue (`BUG`/`CODE_SMELL`) e cada tipo manual do paper. A cobertura de tipo do paper mede a fração das respostas anotadas daquele tipo que tiveram ao menos uma issue Sonar associada.
 
@@ -67,7 +78,7 @@ Cruzamento agregado entre a categoria geral da issue (`BUG`/`CODE_SMELL`) e cada
 | `paper_labeled_responses` | Número de respostas anotadas com esse tipo manual. |
 | `paper_type_coverage_pct` | Percentual de respostas daquele tipo que tiveram uma ou mais issues Sonar associadas. |
 
-### `artifacts/sonar_issue_type_x_paper_hallucination_coverage.csv`
+### `full_dataset/artifacts/sonar_issue_type_x_paper_hallucination_coverage.csv`
 
 Mesmo cruzamento de cobertura, agora detalhado por regra Sonar. `sonar_rule_total_issues` é o denominador da cobertura da regra; as demais colunas de cobertura e contagem seguem a interpretação da tabela anterior.
 
@@ -107,7 +118,7 @@ export SONAR_TOKEN='token-criado-no-sonarqube'
 
 ### 2. Rodar o scanner
 
-Instale o SonarScanner CLI 5.0.1 e Java 17, e execute os comandos a partir deste diretório, onde estão `sonar-project.properties` e `src/`:
+Instale o SonarScanner CLI 5.0.1 e Java 17, e execute os comandos a partir do diretório do conjunto a analisar (por exemplo, `full_dataset/` ou `sonarqube_labeled/`), onde estão `sonar-project.properties` e `src/`:
 
 ```sh
 sonar-scanner \
@@ -132,14 +143,14 @@ docker rm sonarqube
 
 ### 3. Exportar issues e reconstruir os CSVs
 
-O scanner não grava `sonar_issues.json`, `mapped_issues.json` nem os CSVs diretamente. As issues são consultadas na API Web do SonarQube (`api/issues/search`, paginada) e depois ligadas a `artifacts/metadata.jsonl` pelo caminho do arquivo. O JSON bruto e os CSVs em `artifacts/` são artefatos pós-processados.
+O scanner não grava `sonar_issues.json`, `mapped_issues.json` nem os CSVs diretamente. As issues são consultadas na API Web do SonarQube (`api/issues/search`, paginada) e depois ligadas a `artifacts/metadata.jsonl` pelo caminho do arquivo. O JSON bruto e os CSVs em `artifacts/` (dentro do conjunto analisado) são artefatos pós-processados.
 
-Este diretório não contém os scripts que fizeram essa extração e agregação. Assim, os arquivos existentes permitem inspecionar e analisar o resultado, mas o passo de reconstrução dos JSONs/CSVs não é reproduzível apenas com o conteúdo versionado aqui. Depois de rodar o scan, a exportação pode ser feita pela API do servidor com o token de análise e a chave `code-hallucination-result-v2`; para obter os mesmos CSVs com consistência, é necessário recuperar ou adicionar ao projeto o script de exportação/mapeamento que define a paginação, associação de metadados, deduplicação e fórmulas de cobertura.
+O repositório não contém os scripts que fizeram essa extração e agregação. Assim, os arquivos existentes permitem inspecionar e analisar o resultado, mas o passo de reconstrução dos JSONs/CSVs não é reproduzível apenas com o conteúdo versionado aqui. Depois de rodar o scan, a exportação pode ser feita pela API do servidor com o token de análise e a chave `code-hallucination-result-v2`; para obter os mesmos CSVs com consistência, é necessário recuperar ou adicionar ao projeto o script de exportação/mapeamento que define a paginação, associação de metadados, deduplicação e fórmulas de cobertura.
 
 ## Limitações da análise
 
 - SonarQube detecta padrões estáticos de bugs e qualidade. Não avalia se o programa cumpre o enunciado ou se usa corretamente o contexto do projeto.
-- O campo `candidate_paper_type` em `artifacts/mapped_issues.json` é uma heurística baseada na regra/mensagem Sonar (`direct/proxy`, `quality-only` ou `not-directly-mappable`), não um rótulo validado manualmente.
-- Nesta execução, o relatório registra 111 arquivos Java/Python que não foram parseados. Eles não podem contribuir com issues semânticas; consulte `artifacts/sonar_scan.log` para as mensagens do analisador.
+- O campo `candidate_paper_type` em `full_dataset/artifacts/mapped_issues.json` é uma heurística baseada na regra/mensagem Sonar (`direct/proxy`, `quality-only` ou `not-directly-mappable`), não um rótulo validado manualmente.
+- Nesta execução, o relatório registra 111 arquivos Java/Python que não foram parseados. Eles não podem contribuir com issues semânticas; consulte `full_dataset/artifacts/sonar_scan.log` para as mensagens do analisador.
 - Contextos e dependências originais dos projetos CoderEval não foram fornecidos ao scan; também não foi fornecida cobertura de testes. Os resultados Java podem, portanto, ser menos precisos.
 - As contagens deste README descrevem os artefatos já incluídos. Uma nova análise pode produzir resultados diferentes se os arquivos, perfis, regras ou versões mudarem.
