@@ -1,0 +1,93 @@
+\section{Metodologia}
+\label{sec:metodologia-silenciosas}
+
+Esta seção descreve o desenho de um estudo observacional sobre o que \textbf{escapa} aos dois mecanismos usuais de verificação de código gerado por LLMs: a execução de testes funcionais e a análise estática de código.
+
+\subsection{Conjunto de dados}
+\label{sec:conjunto-silenciosas}
+
+O corpus reúne 3.120 implementações de código geradas por cinco modelos de linguagem de grande porte (DeepSeek-Coder-1.3B, DeepSeek-Coder-7B, CodeLlama-7B, GPT-4 e DeepSeek-R1) para 624 tarefas de programação de três conjuntos: CEJava e CEPython, derivados do \textit{CoderEval} (230 tarefas em Java e 230 em Python, este último complementado com contextos recuperados por RAG), e HumanEval (164 tarefas em Python, com testes unitários; Chen et al., 2021).
+
+Cada implementação foi avaliada manualmente quanto à presença de alucinações segundo a taxonomia de Liu et al., que define 12 tipos. A anotação manual está disponível para 1.134 implementações (36,3\%). Um aspecto determinante para o presente desenho é que \textbf{todas as 1.134 implementações anotadas apresentam ao menos um tipo de alucinação}; o conjunto anotado é, portanto, um conjunto de implementações \textit{alucinadas}, e não há, nos dados disponíveis, uma classe de implementações anotadas \textit{sem} alucinação. Em consequência, o estudo não estima a \textit{prevalência} de alucinações na população; ele caracteriza o que acontece \textbf{condicionalmente} à presença de alucinação.
+
+Todas as 3.120 implementações possuem o resultado de execução de testes (\texttt{evaluation result}: aprovada ou reprovada). Além disso, todas foram submetidas ao SonarQube (versão 10.0, perfis padrão \textit{Sonar way}), que registra \textit{issues} (violações de regras) por arquivo.
+
+\subsection{Definição dos gates}
+\label{sec:gates}
+
+Para investigar a cobertura da verificação, definem-se dois \textit{gates} independentes, cada um capaz de sinalizar (``capturar'') uma implementação.
+
+\paragraph{Gate funcional.} O gate funcional captura uma implementação quando ela \textbf{reprova} nos testes. Seja $T_i \in \{0,1\}$ o indicador de captura funcional da implementação $i$:
+\[
+T_i =
+\begin{cases}
+1, & \text{se a implementação reprova nos testes;}\\
+0, & \text{se a implementação passa nos testes.}
+\end{cases}
+\]
+
+\paragraph{Gate estático.} O gate estático captura uma implementação quando ela apresenta \textbf{pelo menos uma issue} do SonarQube. Seja $S_i \in \{0,1\}$ o indicador de captura estática:
+\[
+S_i =
+\begin{cases}
+1, & \text{se a implementação tem ao menos uma issue;}\\
+0, & \text{se a implementação não tem nenhuma issue.}
+\end{cases}
+\]
+
+\paragraph{Cobertura combinada.} O cruzamento dos dois indicadores define quatro categorias mutuamente exclusivas por implementação:
+\[
+\begin{array}{ll}
+\text{ambos} (T_i{=}1, S_i{=}1): & \text{capturada pelo teste e pela análise estática;}\\
+\text{só teste} (T_i{=}1, S_i{=}0): & \text{capturada apenas pelo teste;}\\
+\text{só estático} (T_i{=}0, S_i{=}1): & \text{capturada apenas pela análise estática;}\\
+\text{nenhum} (T_i{=}0, S_i{=}0): & \text{escapa de ambos os gates.}
+\end{array}
+\]
+
+A fração de implementações na categoria ``nenhum'' é a medida central do estudo: ela quantifica o que \textbf{escapa simultaneamente} à verificação funcional e à estática. Duas medidas auxiliares são reportadas:
+\[
+P_{\text{escapam do funcional}} = 1 - \frac{1}{n}\sum_{i=1}^{n} T_i,
+\qquad
+P_{\text{escapam do estático}} = 1 - \frac{1}{n}\sum_{i=1}^{n} S_i,
+\]
+onde $n$ é o número de implementações do conjunto analisado ($n = 1.134$).
+
+\subsection{Estimação e incerteza}
+\label{sec:estimacao}
+
+As proporções são estimadas sobre as 1.134 implementações alucinadas. Como cada tarefa possui até cinco implementações geradas por modelos distintos, as observações \textbf{não são independentes}; para não subestimar a incerteza, os intervalos de confiança de 95\% são obtidos por \textbf{bootstrap agrupado por tarefa}: em cada uma de $B = 2.000$ reamostragens, sorteiam-se tarefas com reposição e tomam-se todas as suas implementações. O intervalo é dado pelos percentis 2,5\% e 97,5\% das $B$ proporções.
+
+\subsection{Estratificação}
+\label{sec:estratificacao}
+
+As proporções de cobertura e de escape são reportadas, além do agregado, em três estratos:
+\begin{itemize}
+    \item \textbf{modelo gerador} (cinco LLMs), para verificar se o risco de escape depende do modelo;
+    \item \textbf{benchmark} (CEJava, CEPython, HumanEval), pois a força do gate funcional depende dos testes de cada conjunto;
+    \item \textbf{tipo de alucinação} (12 tipos), para identificar quais tipos são mais ``silenciosos''.
+\end{itemize}
+Como uma mesma implementação pode apresentar mais de um tipo de alucinação, as linhas da estratificação por tipo não são mutuamente exclusivas e não devem ser somadas. Estratos com $n < 10$ são sinalizados como estimativas frágeis.
+
+\subsection{Análise secundária: previsão do tipo de alucinação}
+\label{sec:previsao}
+
+Como análise secundária, investiga-se se os sinais de análise estática permitem \textbf{prever o tipo} de alucinação de uma implementação. Como vetor de atributos utiliza-se a presença binária de cada uma das 60 regras do SonarQube presentes no conjunto anotado, acrescida do número total de issues e das contagens de issues do tipo \textit{Bug} e \textit{Code Smell}. Para cada um dos 12 tipos, treina-se um classificador binário (regressão logística com padronização e pesos balanceados) em um esquema \textit{one-vs-rest}, avaliado por duas estratégias de validação cruzada:
+\begin{itemize}
+    \item \textbf{validação cruzada agrupada por tarefa} (5 partições), evitando que implementações da mesma tarefa apareçam em treino e teste;
+    \item \textbf{transferência entre modelos}: treina-se em quatro LLMs e avalia-se no quinto (leave-one-model-out), como teste mais severo de generalização.
+\end{itemize}
+A métrica é a área sob a curva ROC (AUC), comparada ao baseline de 0,5. Adota-se como limiar de viabilidade um AUC médio $\ge 0{,}6$; abaixo disso, a camada preditiva é reportada apenas como análise secundária. Como verificação de sanidade, o mesmo conjunto de atributos é usado para prever a aprovação/reprovação nos testes (pass/fail).
+
+\subsection{Escopo e limitações}
+\label{sec:limitacoes-silenciosas}
+
+O desenho apresenta limitações que condicionam a interpretação dos resultados.
+\begin{itemize}
+    \item \textbf{Subconjunto anotado não aleatório.} A anotação cobre 1.134 das 3.120 implementações (36,3\%) e concentra-se em código que reprova nos testes; além disso, só há exemplos de implementações \textit{com} alucinação. As estimativas descrevem esse subconjunto e não devem ser generalizadas como prevalências populacionais.
+    \item \textbf{O gate funcional é um proxy.} Reprovar nos testes indica um defeito funcional, que pode ou não corresponder à alucinação anotada; ``captura funcional'' deve ser lida como ``a falha foi detectada pelos testes''.
+    \item \textbf{Dependência entre observações.} As cinco implementações de uma tarefa compartilham dificuldade e contexto; por isso a incerteza é estimada por bootstrap agrupado por tarefa, e nenhum teste que assuma independência é utilizado.
+    \item \textbf{Distinção entre pass/fail e ausência de issue.} ``Escapar do estático'' significa não haver issue alguma; não significa ausência de problemas de qualidade não cobertos pelas regras.
+    \item \textbf{Proveniência dos artefatos.} O conjunto anotado possui um scan próprio de SonarQube; diferenças em relação ao scan do conjunto completo foram observadas e o presente estudo utiliza exclusivamente o scan do subconjunto anotado.
+    \item \textbf{Reprodutibilidade.} A análise é implementada no script \texttt{scripts/analise\_silenciosas.py}, que gera os artefatos \texttt{coverage\_gates.csv} e \texttt{prediction\_auc.csv}.
+\end{itemize}
