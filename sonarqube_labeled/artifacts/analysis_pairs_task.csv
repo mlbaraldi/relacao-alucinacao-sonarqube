@@ -1,0 +1,597 @@
+rule,lang,type,nX,nY,a,b,c,d,PYgX,PYgXn,delta,OR,S,classe
+java:S1854,java,Undefined Variables,91,87,59,32,28,59,0.6484,0.3218,0.3265,3.885,87,coocorrencia_completa
+java:S1854,java,Library/Project,112,87,55,57,32,34,0.4911,0.4848,0.0062,1.025,87,coocorrencia_completa
+java:S1854,java,Behavior Conflicting,64,87,41,23,46,68,0.6406,0.4035,0.2371,2.635,64,coocorrencia_completa
+java:S1854,java,Useless Statements (executed without effect),37,87,24,13,63,78,0.6486,0.4468,0.2018,2.286,37,coocorrencia_completa
+java:S1144,java,Library/Project,112,32,23,89,9,57,0.2054,0.1364,0.069,1.637,32,coocorrencia_completa
+python:S1172,python,Behavior Conflicting,164,30,19,145,11,80,0.1159,0.1209,-0.005,0.953,30,coocorrencia_completa
+python:S1172,python,Library/Project,105,30,16,89,14,136,0.1524,0.0933,0.059,1.746,30,coocorrencia_completa
+java:S1144,java,Undefined Variables,91,32,15,76,17,70,0.1648,0.1954,-0.0306,0.813,32,coocorrencia_completa
+java:S1144,java,Behavior Conflicting,64,32,13,51,19,95,0.2031,0.1667,0.0365,1.275,32,coocorrencia_completa
+java:S1854,java,Algorithm,19,87,12,7,75,84,0.6316,0.4717,0.1599,1.92,19,coocorrencia_completa
+python:S3776,python,Library/Project,105,13,11,94,2,148,0.1048,0.0133,0.0914,8.66,13,coocorrencia_completa
+python:S3776,python,Behavior Conflicting,164,13,9,155,4,87,0.0549,0.044,0.0109,1.263,13,coocorrencia_completa
+java:S106,java,Undefined Variables,91,9,8,83,1,86,0.0879,0.0115,0.0764,8.289,9,coocorrencia_completa
+python:S1481,python,Behavior Conflicting,164,11,8,156,3,88,0.0488,0.033,0.0158,1.504,11,coocorrencia_completa
+python:S1172,python,Undefined Variables,22,30,7,15,23,210,0.3182,0.0987,0.2195,4.261,22,coocorrencia_completa
+java:S106,java,Useless Statements (executed without effect),37,9,7,30,2,139,0.1892,0.0142,0.175,16.217,9,coocorrencia_completa
+java:S1172,java,Undefined Variables,91,8,7,84,1,86,0.0769,0.0115,0.0654,7.167,8,coocorrencia_completa
+java:S3776,java,Library/Project,112,8,7,105,1,65,0.0625,0.0152,0.0473,4.333,8,coocorrencia_completa
+java:S1488,java,Undefined Variables,91,6,6,85,0,87,0.0659,0.0,0.0659,inf,6,coocorrencia_celula_zero
+java:S1168,java,Behavior Conflicting,64,10,6,58,4,110,0.0938,0.0351,0.0587,2.845,10,coocorrencia_completa
+java:S1144,java,Algorithm,19,32,5,14,27,132,0.2632,0.1698,0.0933,1.746,19,coocorrencia_completa
+java:S3012,java,Behavior Conflicting,64,7,5,59,2,112,0.0781,0.0175,0.0606,4.746,7,coocorrencia_completa
+java:S1172,java,Behavior Conflicting,64,8,5,59,3,111,0.0781,0.0263,0.0518,3.136,8,coocorrencia_completa
+java:S3776,java,Undefined Variables,91,8,5,86,3,84,0.0549,0.0345,0.0205,1.628,8,coocorrencia_completa
+python:S1542,python,Behavior Conflicting,164,6,5,159,1,90,0.0305,0.011,0.0195,2.83,6,coocorrencia_completa
+java:S1172,java,Library/Project,112,8,5,107,3,63,0.0446,0.0455,-0.0008,0.981,8,coocorrencia_completa
+java:S1168,java,Algorithm,19,10,4,15,6,153,0.2105,0.0377,0.1728,6.8,10,coocorrencia_completa
+python:S1172,python,Algorithm,15,30,4,11,26,214,0.2667,0.1083,0.1583,2.993,15,coocorrencia_completa
+java:S1488,java,Useless Statements (executed without effect),37,6,4,33,2,139,0.1081,0.0142,0.0939,8.424,6,coocorrencia_completa
+java:S1144,java,Useless Statements (executed without effect),37,32,4,33,28,113,0.1081,0.1986,-0.0905,0.489,32,coocorrencia_completa
+java:S106,java,Library/Project,112,9,4,108,5,61,0.0357,0.0758,-0.04,0.452,9,coocorrencia_completa
+java:S106,java,Behavior Conflicting,64,9,4,60,5,109,0.0625,0.0439,0.0186,1.453,9,coocorrencia_completa
+python:S1172,python,Data Conflicting,31,30,4,27,26,198,0.129,0.1161,0.013,1.128,30,coocorrencia_completa
+python:S1481,python,Library/Project,105,11,4,101,7,143,0.0381,0.0467,-0.0086,0.809,11,coocorrencia_completa
+java:S1488,java,Library/Project,112,6,4,108,2,64,0.0357,0.0303,0.0054,1.185,6,coocorrencia_completa
+python:S1481,python,Data Conflicting,31,11,3,28,8,216,0.0968,0.0357,0.0611,2.893,11,coocorrencia_completa
+java:S1172,java,Useless Statements (executed without effect),37,8,3,34,5,136,0.0811,0.0355,0.0456,2.4,8,coocorrencia_completa
+python:S1172,python,Computer Theory,19,30,3,16,27,209,0.1579,0.1144,0.0435,1.451,19,coocorrencia_completa
+java:S1126,java,Undefined Variables,91,4,3,88,1,86,0.033,0.0115,0.0215,2.932,4,coocorrencia_completa
+java:S1488,java,Behavior Conflicting,64,6,3,61,3,111,0.0469,0.0263,0.0206,1.82,6,coocorrencia_completa
+python:S112,python,Behavior Conflicting,164,3,3,161,0,91,0.0183,0.0,0.0183,inf,3,coocorrencia_celula_zero
+python:S1226,python,Behavior Conflicting,164,3,3,161,0,91,0.0183,0.0,0.0183,inf,3,coocorrencia_celula_zero
+python:S1854,python,Behavior Conflicting,164,4,3,161,1,90,0.0183,0.011,0.0073,1.677,4,coocorrencia_completa
+python:S1172,python,Useless Statements (executed without effect),4,30,2,2,28,223,0.5,0.1116,0.3884,7.964,4,coocorrencia_completa
+python:S1226,python,Algorithm,15,3,2,13,1,239,0.1333,0.0042,0.1292,36.769,3,coocorrencia_completa
+python:S1481,python,Algorithm,15,11,2,13,9,231,0.1333,0.0375,0.0958,3.949,11,coocorrencia_completa
+python:S1542,python,Computer Theory,19,6,2,17,4,232,0.1053,0.0169,0.0883,6.824,6,coocorrencia_completa
+java:S3012,java,Algorithm,19,7,2,17,5,154,0.1053,0.0314,0.0738,3.624,7,coocorrencia_completa
+java:S1126,java,Useless Statements (executed without effect),37,4,2,35,2,139,0.0541,0.0142,0.0399,3.971,4,coocorrencia_completa
+java:S3012,java,Undefined Variables,91,7,2,89,5,82,0.022,0.0575,-0.0355,0.369,7,coocorrencia_completa
+java:S1149,java,Behavior Conflicting,64,2,2,62,0,114,0.0312,0.0,0.0312,inf,2,coocorrencia_celula_zero
+java:S125,java,Behavior Conflicting,64,2,2,62,0,114,0.0312,0.0,0.0312,inf,2,coocorrencia_celula_zero
+java:S1135,java,Undefined Variables,91,2,2,89,0,87,0.022,0.0,0.022,inf,2,coocorrencia_celula_zero
+java:S1197,java,Undefined Variables,91,2,2,89,0,87,0.022,0.0,0.022,inf,2,coocorrencia_celula_zero
+java:S125,java,Undefined Variables,91,2,2,89,0,87,0.022,0.0,0.022,inf,2,coocorrencia_celula_zero
+java:S135,java,Undefined Variables,91,2,2,89,0,87,0.022,0.0,0.022,inf,2,coocorrencia_celula_zero
+java:S3776,java,Behavior Conflicting,64,8,2,62,6,108,0.0312,0.0526,-0.0214,0.581,8,coocorrencia_completa
+java:S112,java,Library/Project,112,2,2,110,0,66,0.0179,0.0,0.0179,inf,2,coocorrencia_celula_zero
+java:S1135,java,Library/Project,112,2,2,110,0,66,0.0179,0.0,0.0179,inf,2,coocorrencia_celula_zero
+java:S125,java,Library/Project,112,2,2,110,0,66,0.0179,0.0,0.0179,inf,2,coocorrencia_celula_zero
+java:S2293,java,Library/Project,112,2,2,110,0,66,0.0179,0.0,0.0179,inf,2,coocorrencia_celula_zero
+java:S1126,java,Behavior Conflicting,64,4,2,62,2,112,0.0312,0.0175,0.0137,1.806,4,coocorrencia_completa
+java:S1126,java,Library/Project,112,4,2,110,2,64,0.0179,0.0303,-0.0124,0.582,4,coocorrencia_completa
+python:S112,python,Library/Project,105,3,2,103,1,149,0.019,0.0067,0.0124,2.893,3,coocorrencia_completa
+python:S2190,python,Behavior Conflicting,164,2,2,162,0,91,0.0122,0.0,0.0122,inf,2,coocorrencia_celula_zero
+java:S3776,java,Useless Statements (executed without effect),37,8,2,35,6,135,0.0541,0.0426,0.0115,1.286,8,coocorrencia_completa
+python:S1854,python,Library/Project,105,4,2,103,2,148,0.019,0.0133,0.0057,1.437,4,coocorrencia_completa
+python:S117,python,Behavior Conflicting,164,3,2,162,1,90,0.0122,0.011,0.0012,1.111,3,coocorrencia_completa
+java:S3626,java,Data Conflicting,1,1,1,0,0,177,1.0,0.0,1.0,inf,1,coocorrencia_celula_zero
+java:S135,java,Data Conflicting,1,2,1,0,1,176,1.0,0.0056,0.9944,inf,1,coocorrencia_celula_zero
+java:S1126,java,Common Sense,1,4,1,0,3,174,1.0,0.0169,0.9831,inf,1,coocorrencia_celula_zero
+java:S1488,java,Data Conflicting,1,6,1,0,5,172,1.0,0.0282,0.9718,inf,1,coocorrencia_celula_zero
+java:S3776,java,Data Conflicting,1,8,1,0,7,170,1.0,0.0395,0.9605,inf,1,coocorrencia_celula_zero
+java:S106,java,Computer Theory,1,9,1,0,8,169,1.0,0.0452,0.9548,inf,1,coocorrencia_celula_zero
+java:S106,java,Data Conflicting,1,9,1,0,8,169,1.0,0.0452,0.9548,inf,1,coocorrencia_celula_zero
+java:S1854,java,Common Sense,1,87,1,0,86,91,1.0,0.4859,0.5141,inf,1,coocorrencia_celula_zero
+java:S1854,java,Computer Theory,1,87,1,0,86,91,1.0,0.4859,0.5141,inf,1,coocorrencia_celula_zero
+java:S1854,java,Data Conflicting,1,87,1,0,86,91,1.0,0.4859,0.5141,inf,1,coocorrencia_celula_zero
+java:S1126,java,Fragmented Logics,2,4,1,1,3,173,0.5,0.017,0.483,57.667,2,coocorrencia_completa
+python:S1854,python,Useless Statements (executed without effect),4,4,1,3,3,248,0.25,0.012,0.238,27.556,4,coocorrencia_completa
+python:S1542,python,Useless Statements (executed without effect),4,6,1,3,5,246,0.25,0.0199,0.2301,16.4,4,coocorrencia_completa
+python:S1481,python,Useless Statements (executed without effect),4,11,1,3,10,241,0.25,0.0398,0.2102,8.033,4,coocorrencia_completa
+python:S3776,python,Useless Statements (executed without effect),4,13,1,3,12,239,0.25,0.0478,0.2022,6.639,4,coocorrencia_completa
+python:S2190,python,Useless Statements (unexecuted),6,2,1,5,1,248,0.1667,0.004,0.1627,49.6,2,coocorrencia_completa
+python:S1542,python,Useless Statements (unexecuted),6,6,1,5,5,244,0.1667,0.0201,0.1466,9.76,6,coocorrencia_completa
+java:S1168,java,Undefined Variables,91,10,1,90,9,78,0.011,0.1034,-0.0925,0.096,10,coocorrencia_completa
+python:S1871,python,Mathematics & Natural Science,11,2,1,10,1,243,0.0909,0.0041,0.0868,24.3,2,coocorrencia_completa
+java:S3012,java,Library/Project,112,7,1,111,6,60,0.0089,0.0909,-0.082,0.09,7,coocorrencia_completa
+python:S1656,python,Algorithm,15,1,1,14,0,240,0.0667,0.0,0.0667,inf,1,coocorrencia_celula_zero
+python:S5756,python,Algorithm,15,1,1,14,0,240,0.0667,0.0,0.0667,inf,1,coocorrencia_celula_zero
+python:S2190,python,Algorithm,15,2,1,14,1,239,0.0667,0.0042,0.0625,17.071,2,coocorrencia_completa
+python:S2275,python,Fragmented Logics,17,1,1,16,0,238,0.0588,0.0,0.0588,inf,1,coocorrencia_celula_zero
+python:S5603,python,Fragmented Logics,17,1,1,16,0,238,0.0588,0.0,0.0588,inf,1,coocorrencia_celula_zero
+python:S6326,python,Fragmented Logics,17,1,1,16,0,238,0.0588,0.0,0.0588,inf,1,coocorrencia_celula_zero
+java:S117,java,Algorithm,19,1,1,18,0,159,0.0526,0.0,0.0526,inf,1,coocorrencia_celula_zero
+java:S1604,java,Algorithm,19,1,1,18,0,159,0.0526,0.0,0.0526,inf,1,coocorrencia_celula_zero
+python:S1192,python,Computer Theory,19,1,1,18,0,236,0.0526,0.0,0.0526,inf,1,coocorrencia_celula_zero
+python:S1862,python,Computer Theory,19,1,1,18,0,236,0.0526,0.0,0.0526,inf,1,coocorrencia_celula_zero
+python:S3923,python,Computer Theory,19,1,1,18,0,236,0.0526,0.0,0.0526,inf,1,coocorrencia_celula_zero
+python:S5855,python,Computer Theory,19,1,1,18,0,236,0.0526,0.0,0.0526,inf,1,coocorrencia_celula_zero
+python:S5869,python,Computer Theory,19,1,1,18,0,236,0.0526,0.0,0.0526,inf,1,coocorrencia_celula_zero
+python:S6395,python,Computer Theory,19,1,1,18,0,236,0.0526,0.0,0.0526,inf,1,coocorrencia_celula_zero
+python:S6397,python,Computer Theory,19,1,1,18,0,236,0.0526,0.0,0.0526,inf,1,coocorrencia_celula_zero
+python:S1172,python,Useless Statements (unexecuted),6,30,1,5,29,220,0.1667,0.1165,0.0502,1.517,6,coocorrencia_completa
+python:S6353,python,Computer Theory,19,2,1,18,1,235,0.0526,0.0042,0.0484,13.056,2,coocorrencia_completa
+java:S6201,java,Algorithm,19,2,1,18,1,158,0.0526,0.0063,0.0463,8.778,2,coocorrencia_completa
+python:S1862,python,Undefined Variables,22,1,1,21,0,233,0.0455,0.0,0.0455,inf,1,coocorrencia_celula_zero
+python:S2275,python,Undefined Variables,22,1,1,21,0,233,0.0455,0.0,0.0455,inf,1,coocorrencia_celula_zero
+python:S3923,python,Undefined Variables,22,1,1,21,0,233,0.0455,0.0,0.0455,inf,1,coocorrencia_celula_zero
+python:S5603,python,Undefined Variables,22,1,1,21,0,233,0.0455,0.0,0.0455,inf,1,coocorrencia_celula_zero
+python:S6326,python,Undefined Variables,22,1,1,21,0,233,0.0455,0.0,0.0455,inf,1,coocorrencia_celula_zero
+python:S112,python,Computer Theory,19,3,1,18,2,234,0.0526,0.0085,0.0442,6.5,3,coocorrencia_completa
+python:S117,python,Computer Theory,19,3,1,18,2,234,0.0526,0.0085,0.0442,6.5,3,coocorrencia_completa
+python:S3776,python,Mathematics & Natural Science,11,13,1,10,12,232,0.0909,0.0492,0.0417,1.933,11,coocorrencia_completa
+python:S1854,python,Computer Theory,19,4,1,18,3,233,0.0526,0.0127,0.0399,4.315,4,coocorrencia_completa
+python:S117,python,Undefined Variables,22,3,1,21,2,231,0.0455,0.0086,0.0369,5.5,3,coocorrencia_completa
+python:S1066,python,Data Conflicting,31,1,1,30,0,224,0.0323,0.0,0.0323,inf,1,coocorrencia_celula_zero
+python:S1172,python,Mathematics & Natural Science,11,30,1,10,29,215,0.0909,0.1189,-0.0279,0.741,11,coocorrencia_completa
+java:S1905,java,Useless Statements (executed without effect),37,1,1,36,0,141,0.027,0.0,0.027,inf,1,coocorrencia_celula_zero
+java:S2189,java,Useless Statements (executed without effect),37,1,1,36,0,141,0.027,0.0,0.027,inf,1,coocorrencia_celula_zero
+java:S2259,java,Useless Statements (executed without effect),37,1,1,36,0,141,0.027,0.0,0.027,inf,1,coocorrencia_celula_zero
+java:S3626,java,Useless Statements (executed without effect),37,1,1,36,0,141,0.027,0.0,0.027,inf,1,coocorrencia_celula_zero
+python:S1542,python,Library/Project,105,6,1,104,5,145,0.0095,0.0333,-0.0238,0.279,6,coocorrencia_completa
+python:S1226,python,Data Conflicting,31,3,1,30,2,222,0.0323,0.0089,0.0233,3.7,3,coocorrencia_completa
+java:S1135,java,Useless Statements (executed without effect),37,2,1,36,1,140,0.027,0.0071,0.0199,3.889,2,coocorrencia_completa
+java:S125,java,Useless Statements (executed without effect),37,2,1,36,1,140,0.027,0.0071,0.0199,3.889,2,coocorrencia_completa
+java:S135,java,Useless Statements (executed without effect),37,2,1,36,1,140,0.027,0.0071,0.0199,3.889,2,coocorrencia_completa
+java:S2129,java,Useless Statements (executed without effect),37,2,1,36,1,140,0.027,0.0071,0.0199,3.889,2,coocorrencia_completa
+python:S1481,python,Fragmented Logics,17,11,1,16,10,228,0.0588,0.042,0.0168,1.425,11,coocorrencia_completa
+python:S3776,python,Algorithm,15,13,1,14,12,228,0.0667,0.05,0.0167,1.357,13,coocorrencia_completa
+java:S1066,java,Behavior Conflicting,64,1,1,63,0,114,0.0156,0.0,0.0156,inf,1,coocorrencia_celula_zero
+java:S1192,java,Behavior Conflicting,64,1,1,63,0,114,0.0156,0.0,0.0156,inf,1,coocorrencia_celula_zero
+java:S1206,java,Behavior Conflicting,64,1,1,63,0,114,0.0156,0.0,0.0156,inf,1,coocorrencia_celula_zero
+java:S1659,java,Behavior Conflicting,64,1,1,63,0,114,0.0156,0.0,0.0156,inf,1,coocorrencia_celula_zero
+java:S2259,java,Behavior Conflicting,64,1,1,63,0,114,0.0156,0.0,0.0156,inf,1,coocorrencia_celula_zero
+java:S3740,java,Behavior Conflicting,64,1,1,63,0,114,0.0156,0.0,0.0156,inf,1,coocorrencia_celula_zero
+java:S5738,java,Behavior Conflicting,64,1,1,63,0,114,0.0156,0.0,0.0156,inf,1,coocorrencia_celula_zero
+java:S6208,java,Behavior Conflicting,64,1,1,63,0,114,0.0156,0.0,0.0156,inf,1,coocorrencia_celula_zero
+java:S1066,java,Undefined Variables,91,1,1,90,0,87,0.011,0.0,0.011,inf,1,coocorrencia_celula_zero
+java:S1192,java,Undefined Variables,91,1,1,90,0,87,0.011,0.0,0.011,inf,1,coocorrencia_celula_zero
+java:S1206,java,Undefined Variables,91,1,1,90,0,87,0.011,0.0,0.011,inf,1,coocorrencia_celula_zero
+java:S1481,java,Undefined Variables,91,1,1,90,0,87,0.011,0.0,0.011,inf,1,coocorrencia_celula_zero
+java:S1604,java,Undefined Variables,91,1,1,90,0,87,0.011,0.0,0.011,inf,1,coocorrencia_celula_zero
+java:S1659,java,Undefined Variables,91,1,1,90,0,87,0.011,0.0,0.011,inf,1,coocorrencia_celula_zero
+java:S2259,java,Undefined Variables,91,1,1,90,0,87,0.011,0.0,0.011,inf,1,coocorrencia_celula_zero
+java:S3626,java,Undefined Variables,91,1,1,90,0,87,0.011,0.0,0.011,inf,1,coocorrencia_celula_zero
+java:S6208,java,Undefined Variables,91,1,1,90,0,87,0.011,0.0,0.011,inf,1,coocorrencia_celula_zero
+python:S1192,python,Library/Project,105,1,1,104,0,150,0.0095,0.0,0.0095,inf,1,coocorrencia_celula_zero
+python:S1656,python,Library/Project,105,1,1,104,0,150,0.0095,0.0,0.0095,inf,1,coocorrencia_celula_zero
+python:S1862,python,Library/Project,105,1,1,104,0,150,0.0095,0.0,0.0095,inf,1,coocorrencia_celula_zero
+python:S2275,python,Library/Project,105,1,1,104,0,150,0.0095,0.0,0.0095,inf,1,coocorrencia_celula_zero
+python:S3923,python,Library/Project,105,1,1,104,0,150,0.0095,0.0,0.0095,inf,1,coocorrencia_celula_zero
+python:S5603,python,Library/Project,105,1,1,104,0,150,0.0095,0.0,0.0095,inf,1,coocorrencia_celula_zero
+python:S6326,python,Library/Project,105,1,1,104,0,150,0.0095,0.0,0.0095,inf,1,coocorrencia_celula_zero
+python:S930,python,Library/Project,105,1,1,104,0,150,0.0095,0.0,0.0095,inf,1,coocorrencia_celula_zero
+java:S1066,java,Library/Project,112,1,1,111,0,66,0.0089,0.0,0.0089,inf,1,coocorrencia_celula_zero
+java:S117,java,Library/Project,112,1,1,111,0,66,0.0089,0.0,0.0089,inf,1,coocorrencia_celula_zero
+java:S1192,java,Library/Project,112,1,1,111,0,66,0.0089,0.0,0.0089,inf,1,coocorrencia_celula_zero
+java:S1206,java,Library/Project,112,1,1,111,0,66,0.0089,0.0,0.0089,inf,1,coocorrencia_celula_zero
+java:S1481,java,Library/Project,112,1,1,111,0,66,0.0089,0.0,0.0089,inf,1,coocorrencia_celula_zero
+java:S1659,java,Library/Project,112,1,1,111,0,66,0.0089,0.0,0.0089,inf,1,coocorrencia_celula_zero
+java:S1905,java,Library/Project,112,1,1,111,0,66,0.0089,0.0,0.0089,inf,1,coocorrencia_celula_zero
+java:S6208,java,Library/Project,112,1,1,111,0,66,0.0089,0.0,0.0089,inf,1,coocorrencia_celula_zero
+java:S3776,java,Algorithm,19,8,1,18,7,152,0.0526,0.044,0.0086,1.206,8,coocorrencia_completa
+python:S3776,python,Fragmented Logics,17,13,1,16,12,226,0.0588,0.0504,0.0084,1.177,13,coocorrencia_completa
+java:S2129,java,Behavior Conflicting,64,2,1,63,1,113,0.0156,0.0088,0.0069,1.794,2,coocorrencia_completa
+java:S1149,java,Library/Project,112,2,1,111,1,65,0.0089,0.0152,-0.0062,0.586,2,coocorrencia_completa
+java:S1197,java,Library/Project,112,2,1,111,1,65,0.0089,0.0152,-0.0062,0.586,2,coocorrencia_completa
+java:S135,java,Library/Project,112,2,1,111,1,65,0.0089,0.0152,-0.0062,0.586,2,coocorrencia_completa
+java:S2129,java,Library/Project,112,2,1,111,1,65,0.0089,0.0152,-0.0062,0.586,2,coocorrencia_completa
+java:S6201,java,Library/Project,112,2,1,111,1,65,0.0089,0.0152,-0.0062,0.586,2,coocorrencia_completa
+python:S1192,python,Behavior Conflicting,164,1,1,163,0,91,0.0061,0.0,0.0061,inf,1,coocorrencia_celula_zero
+python:S1656,python,Behavior Conflicting,164,1,1,163,0,91,0.0061,0.0,0.0061,inf,1,coocorrencia_celula_zero
+python:S2275,python,Behavior Conflicting,164,1,1,163,0,91,0.0061,0.0,0.0061,inf,1,coocorrencia_celula_zero
+python:S3358,python,Behavior Conflicting,164,1,1,163,0,91,0.0061,0.0,0.0061,inf,1,coocorrencia_celula_zero
+python:S3457,python,Behavior Conflicting,164,1,1,163,0,91,0.0061,0.0,0.0061,inf,1,coocorrencia_celula_zero
+python:S5603,python,Behavior Conflicting,164,1,1,163,0,91,0.0061,0.0,0.0061,inf,1,coocorrencia_celula_zero
+python:S5756,python,Behavior Conflicting,164,1,1,163,0,91,0.0061,0.0,0.0061,inf,1,coocorrencia_celula_zero
+python:S5806,python,Behavior Conflicting,164,1,1,163,0,91,0.0061,0.0,0.0061,inf,1,coocorrencia_celula_zero
+python:S6326,python,Behavior Conflicting,164,1,1,163,0,91,0.0061,0.0,0.0061,inf,1,coocorrencia_celula_zero
+python:S3776,python,Undefined Variables,22,13,1,21,12,221,0.0455,0.0515,-0.006,0.877,13,coocorrencia_completa
+python:S1871,python,Behavior Conflicting,164,2,1,163,1,90,0.0061,0.011,-0.0049,0.552,2,coocorrencia_completa
+python:S6353,python,Behavior Conflicting,164,2,1,163,1,90,0.0061,0.011,-0.0049,0.552,2,coocorrencia_completa
+python:S117,python,Library/Project,105,3,1,104,2,148,0.0095,0.0133,-0.0038,0.712,3,coocorrencia_completa
+python:S1226,python,Library/Project,105,3,1,104,2,148,0.0095,0.0133,-0.0038,0.712,3,coocorrencia_completa
+python:S1871,python,Library/Project,105,2,1,104,1,149,0.0095,0.0067,0.0029,1.433,2,coocorrencia_completa
+python:S6353,python,Library/Project,105,2,1,104,1,149,0.0095,0.0067,0.0029,1.433,2,coocorrencia_completa
+java:S2129,java,Undefined Variables,91,2,1,90,1,86,0.011,0.0115,-0.0005,0.956,2,coocorrencia_completa
+java:S2293,java,Undefined Variables,91,2,1,90,1,86,0.011,0.0115,-0.0005,0.956,2,coocorrencia_completa
+java:S1854,java,Fragmented Logics,2,87,0,2,87,89,0.0,0.4943,-0.4943,0.0,2,sem_coocorrencia
+java:S1144,java,Fragmented Logics,2,32,0,2,32,144,0.0,0.1818,-0.1818,0.0,2,sem_coocorrencia
+java:S1144,java,Common Sense,1,32,0,1,32,145,0.0,0.1808,-0.1808,0.0,1,sem_coocorrencia
+java:S1144,java,Computer Theory,1,32,0,1,32,145,0.0,0.1808,-0.1808,0.0,1,sem_coocorrencia
+java:S1144,java,Data Conflicting,1,32,0,1,32,145,0.0,0.1808,-0.1808,0.0,1,sem_coocorrencia
+java:S1168,java,Library/Project,112,10,0,112,10,56,0.0,0.1515,-0.1515,0.0,10,sem_coocorrencia
+python:S1172,python,Fragmented Logics,17,30,0,17,30,208,0.0,0.1261,-0.1261,0.0,17,sem_coocorrencia
+python:S1172,python,Inconsistent Libraries,2,30,0,2,30,223,0.0,0.1186,-0.1186,0.0,2,sem_coocorrencia
+java:S1168,java,Useless Statements (executed without effect),37,10,0,37,10,131,0.0,0.0709,-0.0709,0.0,10,sem_coocorrencia
+python:S3776,python,Data Conflicting,31,13,0,31,13,211,0.0,0.058,-0.058,0.0,13,sem_coocorrencia
+java:S1168,java,Fragmented Logics,2,10,0,2,10,166,0.0,0.0568,-0.0568,0.0,2,sem_coocorrencia
+java:S106,java,Algorithm,19,9,0,19,9,150,0.0,0.0566,-0.0566,0.0,9,sem_coocorrencia
+java:S1168,java,Common Sense,1,10,0,1,10,167,0.0,0.0565,-0.0565,0.0,1,sem_coocorrencia
+java:S1168,java,Computer Theory,1,10,0,1,10,167,0.0,0.0565,-0.0565,0.0,1,sem_coocorrencia
+java:S1168,java,Data Conflicting,1,10,0,1,10,167,0.0,0.0565,-0.0565,0.0,1,sem_coocorrencia
+python:S3776,python,Computer Theory,19,13,0,19,13,223,0.0,0.0551,-0.0551,0.0,13,sem_coocorrencia
+python:S3776,python,Useless Statements (unexecuted),6,13,0,6,13,236,0.0,0.0522,-0.0522,0.0,6,sem_coocorrencia
+python:S3776,python,Inconsistent Libraries,2,13,0,2,13,240,0.0,0.0514,-0.0514,0.0,2,sem_coocorrencia
+java:S106,java,Fragmented Logics,2,9,0,2,9,167,0.0,0.0511,-0.0511,0.0,2,sem_coocorrencia
+java:S106,java,Common Sense,1,9,0,1,9,168,0.0,0.0508,-0.0508,0.0,1,sem_coocorrencia
+java:S1172,java,Algorithm,19,8,0,19,8,151,0.0,0.0503,-0.0503,0.0,8,sem_coocorrencia
+java:S3012,java,Useless Statements (executed without effect),37,7,0,37,7,134,0.0,0.0496,-0.0496,0.0,7,sem_coocorrencia
+python:S1481,python,Undefined Variables,22,11,0,22,11,222,0.0,0.0472,-0.0472,0.0,11,sem_coocorrencia
+python:S1481,python,Computer Theory,19,11,0,19,11,225,0.0,0.0466,-0.0466,0.0,11,sem_coocorrencia
+java:S1172,java,Fragmented Logics,2,8,0,2,8,168,0.0,0.0455,-0.0455,0.0,2,sem_coocorrencia
+java:S3776,java,Fragmented Logics,2,8,0,2,8,168,0.0,0.0455,-0.0455,0.0,2,sem_coocorrencia
+java:S1172,java,Common Sense,1,8,0,1,8,169,0.0,0.0452,-0.0452,0.0,1,sem_coocorrencia
+java:S1172,java,Computer Theory,1,8,0,1,8,169,0.0,0.0452,-0.0452,0.0,1,sem_coocorrencia
+java:S1172,java,Data Conflicting,1,8,0,1,8,169,0.0,0.0452,-0.0452,0.0,1,sem_coocorrencia
+java:S3776,java,Common Sense,1,8,0,1,8,169,0.0,0.0452,-0.0452,0.0,1,sem_coocorrencia
+java:S3776,java,Computer Theory,1,8,0,1,8,169,0.0,0.0452,-0.0452,0.0,1,sem_coocorrencia
+python:S1481,python,Mathematics & Natural Science,11,11,0,11,11,233,0.0,0.0451,-0.0451,0.0,11,sem_coocorrencia
+python:S1481,python,Useless Statements (unexecuted),6,11,0,6,11,238,0.0,0.0442,-0.0442,0.0,6,sem_coocorrencia
+python:S1481,python,Inconsistent Libraries,2,11,0,2,11,242,0.0,0.0435,-0.0435,0.0,2,sem_coocorrencia
+java:S3012,java,Fragmented Logics,2,7,0,2,7,169,0.0,0.0398,-0.0398,0.0,2,sem_coocorrencia
+java:S3012,java,Common Sense,1,7,0,1,7,170,0.0,0.0395,-0.0395,0.0,1,sem_coocorrencia
+java:S3012,java,Computer Theory,1,7,0,1,7,170,0.0,0.0395,-0.0395,0.0,1,sem_coocorrencia
+java:S3012,java,Data Conflicting,1,7,0,1,7,170,0.0,0.0395,-0.0395,0.0,1,sem_coocorrencia
+java:S1488,java,Algorithm,19,6,0,19,6,153,0.0,0.0377,-0.0377,0.0,6,sem_coocorrencia
+java:S1488,java,Fragmented Logics,2,6,0,2,6,170,0.0,0.0341,-0.0341,0.0,2,sem_coocorrencia
+java:S1488,java,Common Sense,1,6,0,1,6,171,0.0,0.0339,-0.0339,0.0,1,sem_coocorrencia
+java:S1488,java,Computer Theory,1,6,0,1,6,171,0.0,0.0339,-0.0339,0.0,1,sem_coocorrencia
+python:S1542,python,Data Conflicting,31,6,0,31,6,218,0.0,0.0268,-0.0268,0.0,6,sem_coocorrencia
+python:S1542,python,Undefined Variables,22,6,0,22,6,227,0.0,0.0258,-0.0258,0.0,6,sem_coocorrencia
+java:S1126,java,Algorithm,19,4,0,19,4,155,0.0,0.0252,-0.0252,0.0,4,sem_coocorrencia
+python:S1542,python,Fragmented Logics,17,6,0,17,6,232,0.0,0.0252,-0.0252,0.0,6,sem_coocorrencia
+python:S1542,python,Algorithm,15,6,0,15,6,234,0.0,0.025,-0.025,0.0,6,sem_coocorrencia
+python:S1542,python,Mathematics & Natural Science,11,6,0,11,6,238,0.0,0.0246,-0.0246,0.0,6,sem_coocorrencia
+python:S1542,python,Inconsistent Libraries,2,6,0,2,6,247,0.0,0.0237,-0.0237,0.0,2,sem_coocorrencia
+java:S112,java,Undefined Variables,91,2,0,91,2,85,0.0,0.023,-0.023,0.0,2,sem_coocorrencia
+java:S1149,java,Undefined Variables,91,2,0,91,2,85,0.0,0.023,-0.023,0.0,2,sem_coocorrencia
+java:S6201,java,Undefined Variables,91,2,0,91,2,85,0.0,0.023,-0.023,0.0,2,sem_coocorrencia
+java:S1126,java,Computer Theory,1,4,0,1,4,173,0.0,0.0226,-0.0226,0.0,1,sem_coocorrencia
+java:S1126,java,Data Conflicting,1,4,0,1,4,173,0.0,0.0226,-0.0226,0.0,1,sem_coocorrencia
+python:S1854,python,Data Conflicting,31,4,0,31,4,220,0.0,0.0179,-0.0179,0.0,4,sem_coocorrencia
+java:S112,java,Behavior Conflicting,64,2,0,64,2,112,0.0,0.0175,-0.0175,0.0,2,sem_coocorrencia
+java:S1135,java,Behavior Conflicting,64,2,0,64,2,112,0.0,0.0175,-0.0175,0.0,2,sem_coocorrencia
+java:S1197,java,Behavior Conflicting,64,2,0,64,2,112,0.0,0.0175,-0.0175,0.0,2,sem_coocorrencia
+java:S135,java,Behavior Conflicting,64,2,0,64,2,112,0.0,0.0175,-0.0175,0.0,2,sem_coocorrencia
+java:S2293,java,Behavior Conflicting,64,2,0,64,2,112,0.0,0.0175,-0.0175,0.0,2,sem_coocorrencia
+java:S6201,java,Behavior Conflicting,64,2,0,64,2,112,0.0,0.0175,-0.0175,0.0,2,sem_coocorrencia
+python:S1854,python,Undefined Variables,22,4,0,22,4,229,0.0,0.0172,-0.0172,0.0,4,sem_coocorrencia
+python:S1854,python,Fragmented Logics,17,4,0,17,4,234,0.0,0.0168,-0.0168,0.0,4,sem_coocorrencia
+python:S1854,python,Algorithm,15,4,0,15,4,236,0.0,0.0167,-0.0167,0.0,4,sem_coocorrencia
+python:S1854,python,Mathematics & Natural Science,11,4,0,11,4,240,0.0,0.0164,-0.0164,0.0,4,sem_coocorrencia
+python:S1854,python,Useless Statements (unexecuted),6,4,0,6,4,245,0.0,0.0161,-0.0161,0.0,4,sem_coocorrencia
+python:S1854,python,Inconsistent Libraries,2,4,0,2,4,249,0.0,0.0158,-0.0158,0.0,2,sem_coocorrencia
+java:S1604,java,Library/Project,112,1,0,112,1,65,0.0,0.0152,-0.0152,0.0,1,sem_coocorrencia
+java:S2189,java,Library/Project,112,1,0,112,1,65,0.0,0.0152,-0.0152,0.0,1,sem_coocorrencia
+java:S2259,java,Library/Project,112,1,0,112,1,65,0.0,0.0152,-0.0152,0.0,1,sem_coocorrencia
+java:S3626,java,Library/Project,112,1,0,112,1,65,0.0,0.0152,-0.0152,0.0,1,sem_coocorrencia
+java:S3740,java,Library/Project,112,1,0,112,1,65,0.0,0.0152,-0.0152,0.0,1,sem_coocorrencia
+java:S5738,java,Library/Project,112,1,0,112,1,65,0.0,0.0152,-0.0152,0.0,1,sem_coocorrencia
+java:S112,java,Useless Statements (executed without effect),37,2,0,37,2,139,0.0,0.0142,-0.0142,0.0,2,sem_coocorrencia
+java:S1149,java,Useless Statements (executed without effect),37,2,0,37,2,139,0.0,0.0142,-0.0142,0.0,2,sem_coocorrencia
+java:S1197,java,Useless Statements (executed without effect),37,2,0,37,2,139,0.0,0.0142,-0.0142,0.0,2,sem_coocorrencia
+java:S2293,java,Useless Statements (executed without effect),37,2,0,37,2,139,0.0,0.0142,-0.0142,0.0,2,sem_coocorrencia
+java:S6201,java,Useless Statements (executed without effect),37,2,0,37,2,139,0.0,0.0142,-0.0142,0.0,2,sem_coocorrencia
+python:S112,python,Data Conflicting,31,3,0,31,3,221,0.0,0.0134,-0.0134,0.0,3,sem_coocorrencia
+python:S117,python,Data Conflicting,31,3,0,31,3,221,0.0,0.0134,-0.0134,0.0,3,sem_coocorrencia
+python:S2190,python,Library/Project,105,2,0,105,2,148,0.0,0.0133,-0.0133,0.0,2,sem_coocorrencia
+python:S112,python,Undefined Variables,22,3,0,22,3,230,0.0,0.0129,-0.0129,0.0,3,sem_coocorrencia
+python:S1226,python,Undefined Variables,22,3,0,22,3,230,0.0,0.0129,-0.0129,0.0,3,sem_coocorrencia
+python:S1226,python,Computer Theory,19,3,0,19,3,233,0.0,0.0127,-0.0127,0.0,3,sem_coocorrencia
+java:S112,java,Algorithm,19,2,0,19,2,157,0.0,0.0126,-0.0126,0.0,2,sem_coocorrencia
+java:S1135,java,Algorithm,19,2,0,19,2,157,0.0,0.0126,-0.0126,0.0,2,sem_coocorrencia
+java:S1149,java,Algorithm,19,2,0,19,2,157,0.0,0.0126,-0.0126,0.0,2,sem_coocorrencia
+java:S1197,java,Algorithm,19,2,0,19,2,157,0.0,0.0126,-0.0126,0.0,2,sem_coocorrencia
+java:S125,java,Algorithm,19,2,0,19,2,157,0.0,0.0126,-0.0126,0.0,2,sem_coocorrencia
+java:S135,java,Algorithm,19,2,0,19,2,157,0.0,0.0126,-0.0126,0.0,2,sem_coocorrencia
+java:S2129,java,Algorithm,19,2,0,19,2,157,0.0,0.0126,-0.0126,0.0,2,sem_coocorrencia
+java:S2293,java,Algorithm,19,2,0,19,2,157,0.0,0.0126,-0.0126,0.0,2,sem_coocorrencia
+python:S112,python,Fragmented Logics,17,3,0,17,3,235,0.0,0.0126,-0.0126,0.0,3,sem_coocorrencia
+python:S117,python,Fragmented Logics,17,3,0,17,3,235,0.0,0.0126,-0.0126,0.0,3,sem_coocorrencia
+python:S1226,python,Fragmented Logics,17,3,0,17,3,235,0.0,0.0126,-0.0126,0.0,3,sem_coocorrencia
+python:S112,python,Algorithm,15,3,0,15,3,237,0.0,0.0125,-0.0125,0.0,3,sem_coocorrencia
+python:S117,python,Algorithm,15,3,0,15,3,237,0.0,0.0125,-0.0125,0.0,3,sem_coocorrencia
+python:S112,python,Mathematics & Natural Science,11,3,0,11,3,241,0.0,0.0123,-0.0123,0.0,3,sem_coocorrencia
+python:S117,python,Mathematics & Natural Science,11,3,0,11,3,241,0.0,0.0123,-0.0123,0.0,3,sem_coocorrencia
+python:S1226,python,Mathematics & Natural Science,11,3,0,11,3,241,0.0,0.0123,-0.0123,0.0,3,sem_coocorrencia
+python:S112,python,Useless Statements (executed without effect),4,3,0,4,3,248,0.0,0.012,-0.012,0.0,3,sem_coocorrencia
+python:S112,python,Useless Statements (unexecuted),6,3,0,6,3,246,0.0,0.012,-0.012,0.0,3,sem_coocorrencia
+python:S117,python,Useless Statements (executed without effect),4,3,0,4,3,248,0.0,0.012,-0.012,0.0,3,sem_coocorrencia
+python:S117,python,Useless Statements (unexecuted),6,3,0,6,3,246,0.0,0.012,-0.012,0.0,3,sem_coocorrencia
+python:S1226,python,Useless Statements (executed without effect),4,3,0,4,3,248,0.0,0.012,-0.012,0.0,3,sem_coocorrencia
+python:S1226,python,Useless Statements (unexecuted),6,3,0,6,3,246,0.0,0.012,-0.012,0.0,3,sem_coocorrencia
+python:S112,python,Inconsistent Libraries,2,3,0,2,3,250,0.0,0.0119,-0.0119,0.0,2,sem_coocorrencia
+python:S117,python,Inconsistent Libraries,2,3,0,2,3,250,0.0,0.0119,-0.0119,0.0,2,sem_coocorrencia
+python:S1226,python,Inconsistent Libraries,2,3,0,2,3,250,0.0,0.0119,-0.0119,0.0,2,sem_coocorrencia
+java:S117,java,Undefined Variables,91,1,0,91,1,86,0.0,0.0115,-0.0115,0.0,1,sem_coocorrencia
+java:S1905,java,Undefined Variables,91,1,0,91,1,86,0.0,0.0115,-0.0115,0.0,1,sem_coocorrencia
+java:S2189,java,Undefined Variables,91,1,0,91,1,86,0.0,0.0115,-0.0115,0.0,1,sem_coocorrencia
+java:S3740,java,Undefined Variables,91,1,0,91,1,86,0.0,0.0115,-0.0115,0.0,1,sem_coocorrencia
+java:S5738,java,Undefined Variables,91,1,0,91,1,86,0.0,0.0115,-0.0115,0.0,1,sem_coocorrencia
+java:S112,java,Fragmented Logics,2,2,0,2,2,174,0.0,0.0114,-0.0114,0.0,2,sem_coocorrencia
+java:S1135,java,Fragmented Logics,2,2,0,2,2,174,0.0,0.0114,-0.0114,0.0,2,sem_coocorrencia
+java:S1149,java,Fragmented Logics,2,2,0,2,2,174,0.0,0.0114,-0.0114,0.0,2,sem_coocorrencia
+java:S1197,java,Fragmented Logics,2,2,0,2,2,174,0.0,0.0114,-0.0114,0.0,2,sem_coocorrencia
+java:S125,java,Fragmented Logics,2,2,0,2,2,174,0.0,0.0114,-0.0114,0.0,2,sem_coocorrencia
+java:S135,java,Fragmented Logics,2,2,0,2,2,174,0.0,0.0114,-0.0114,0.0,2,sem_coocorrencia
+java:S2129,java,Fragmented Logics,2,2,0,2,2,174,0.0,0.0114,-0.0114,0.0,2,sem_coocorrencia
+java:S2293,java,Fragmented Logics,2,2,0,2,2,174,0.0,0.0114,-0.0114,0.0,2,sem_coocorrencia
+java:S6201,java,Fragmented Logics,2,2,0,2,2,174,0.0,0.0114,-0.0114,0.0,2,sem_coocorrencia
+java:S112,java,Common Sense,1,2,0,1,2,175,0.0,0.0113,-0.0113,0.0,1,sem_coocorrencia
+java:S112,java,Computer Theory,1,2,0,1,2,175,0.0,0.0113,-0.0113,0.0,1,sem_coocorrencia
+java:S112,java,Data Conflicting,1,2,0,1,2,175,0.0,0.0113,-0.0113,0.0,1,sem_coocorrencia
+java:S1135,java,Common Sense,1,2,0,1,2,175,0.0,0.0113,-0.0113,0.0,1,sem_coocorrencia
+java:S1135,java,Computer Theory,1,2,0,1,2,175,0.0,0.0113,-0.0113,0.0,1,sem_coocorrencia
+java:S1135,java,Data Conflicting,1,2,0,1,2,175,0.0,0.0113,-0.0113,0.0,1,sem_coocorrencia
+java:S1149,java,Common Sense,1,2,0,1,2,175,0.0,0.0113,-0.0113,0.0,1,sem_coocorrencia
+java:S1149,java,Computer Theory,1,2,0,1,2,175,0.0,0.0113,-0.0113,0.0,1,sem_coocorrencia
+java:S1149,java,Data Conflicting,1,2,0,1,2,175,0.0,0.0113,-0.0113,0.0,1,sem_coocorrencia
+java:S1197,java,Common Sense,1,2,0,1,2,175,0.0,0.0113,-0.0113,0.0,1,sem_coocorrencia
+java:S1197,java,Computer Theory,1,2,0,1,2,175,0.0,0.0113,-0.0113,0.0,1,sem_coocorrencia
+java:S1197,java,Data Conflicting,1,2,0,1,2,175,0.0,0.0113,-0.0113,0.0,1,sem_coocorrencia
+java:S125,java,Common Sense,1,2,0,1,2,175,0.0,0.0113,-0.0113,0.0,1,sem_coocorrencia
+java:S125,java,Computer Theory,1,2,0,1,2,175,0.0,0.0113,-0.0113,0.0,1,sem_coocorrencia
+java:S125,java,Data Conflicting,1,2,0,1,2,175,0.0,0.0113,-0.0113,0.0,1,sem_coocorrencia
+java:S135,java,Common Sense,1,2,0,1,2,175,0.0,0.0113,-0.0113,0.0,1,sem_coocorrencia
+java:S135,java,Computer Theory,1,2,0,1,2,175,0.0,0.0113,-0.0113,0.0,1,sem_coocorrencia
+java:S2129,java,Common Sense,1,2,0,1,2,175,0.0,0.0113,-0.0113,0.0,1,sem_coocorrencia
+java:S2129,java,Computer Theory,1,2,0,1,2,175,0.0,0.0113,-0.0113,0.0,1,sem_coocorrencia
+java:S2129,java,Data Conflicting,1,2,0,1,2,175,0.0,0.0113,-0.0113,0.0,1,sem_coocorrencia
+java:S2293,java,Common Sense,1,2,0,1,2,175,0.0,0.0113,-0.0113,0.0,1,sem_coocorrencia
+java:S2293,java,Computer Theory,1,2,0,1,2,175,0.0,0.0113,-0.0113,0.0,1,sem_coocorrencia
+java:S2293,java,Data Conflicting,1,2,0,1,2,175,0.0,0.0113,-0.0113,0.0,1,sem_coocorrencia
+java:S6201,java,Common Sense,1,2,0,1,2,175,0.0,0.0113,-0.0113,0.0,1,sem_coocorrencia
+java:S6201,java,Computer Theory,1,2,0,1,2,175,0.0,0.0113,-0.0113,0.0,1,sem_coocorrencia
+java:S6201,java,Data Conflicting,1,2,0,1,2,175,0.0,0.0113,-0.0113,0.0,1,sem_coocorrencia
+python:S1066,python,Behavior Conflicting,164,1,0,164,1,90,0.0,0.011,-0.011,0.0,1,sem_coocorrencia
+python:S1862,python,Behavior Conflicting,164,1,0,164,1,90,0.0,0.011,-0.011,0.0,1,sem_coocorrencia
+python:S3923,python,Behavior Conflicting,164,1,0,164,1,90,0.0,0.011,-0.011,0.0,1,sem_coocorrencia
+python:S5855,python,Behavior Conflicting,164,1,0,164,1,90,0.0,0.011,-0.011,0.0,1,sem_coocorrencia
+python:S5869,python,Behavior Conflicting,164,1,0,164,1,90,0.0,0.011,-0.011,0.0,1,sem_coocorrencia
+python:S6395,python,Behavior Conflicting,164,1,0,164,1,90,0.0,0.011,-0.011,0.0,1,sem_coocorrencia
+python:S6397,python,Behavior Conflicting,164,1,0,164,1,90,0.0,0.011,-0.011,0.0,1,sem_coocorrencia
+python:S930,python,Behavior Conflicting,164,1,0,164,1,90,0.0,0.011,-0.011,0.0,1,sem_coocorrencia
+python:S1871,python,Data Conflicting,31,2,0,31,2,222,0.0,0.0089,-0.0089,0.0,2,sem_coocorrencia
+python:S2190,python,Data Conflicting,31,2,0,31,2,222,0.0,0.0089,-0.0089,0.0,2,sem_coocorrencia
+python:S6353,python,Data Conflicting,31,2,0,31,2,222,0.0,0.0089,-0.0089,0.0,2,sem_coocorrencia
+java:S117,java,Behavior Conflicting,64,1,0,64,1,113,0.0,0.0088,-0.0088,0.0,1,sem_coocorrencia
+java:S1481,java,Behavior Conflicting,64,1,0,64,1,113,0.0,0.0088,-0.0088,0.0,1,sem_coocorrencia
+java:S1604,java,Behavior Conflicting,64,1,0,64,1,113,0.0,0.0088,-0.0088,0.0,1,sem_coocorrencia
+java:S1905,java,Behavior Conflicting,64,1,0,64,1,113,0.0,0.0088,-0.0088,0.0,1,sem_coocorrencia
+java:S2189,java,Behavior Conflicting,64,1,0,64,1,113,0.0,0.0088,-0.0088,0.0,1,sem_coocorrencia
+java:S3626,java,Behavior Conflicting,64,1,0,64,1,113,0.0,0.0088,-0.0088,0.0,1,sem_coocorrencia
+python:S1871,python,Undefined Variables,22,2,0,22,2,231,0.0,0.0086,-0.0086,0.0,2,sem_coocorrencia
+python:S2190,python,Undefined Variables,22,2,0,22,2,231,0.0,0.0086,-0.0086,0.0,2,sem_coocorrencia
+python:S6353,python,Undefined Variables,22,2,0,22,2,231,0.0,0.0086,-0.0086,0.0,2,sem_coocorrencia
+python:S1871,python,Computer Theory,19,2,0,19,2,234,0.0,0.0085,-0.0085,0.0,2,sem_coocorrencia
+python:S2190,python,Computer Theory,19,2,0,19,2,234,0.0,0.0085,-0.0085,0.0,2,sem_coocorrencia
+python:S1871,python,Fragmented Logics,17,2,0,17,2,236,0.0,0.0084,-0.0084,0.0,2,sem_coocorrencia
+python:S2190,python,Fragmented Logics,17,2,0,17,2,236,0.0,0.0084,-0.0084,0.0,2,sem_coocorrencia
+python:S6353,python,Fragmented Logics,17,2,0,17,2,236,0.0,0.0084,-0.0084,0.0,2,sem_coocorrencia
+python:S1871,python,Algorithm,15,2,0,15,2,238,0.0,0.0083,-0.0083,0.0,2,sem_coocorrencia
+python:S6353,python,Algorithm,15,2,0,15,2,238,0.0,0.0083,-0.0083,0.0,2,sem_coocorrencia
+python:S2190,python,Mathematics & Natural Science,11,2,0,11,2,242,0.0,0.0082,-0.0082,0.0,2,sem_coocorrencia
+python:S6353,python,Mathematics & Natural Science,11,2,0,11,2,242,0.0,0.0082,-0.0082,0.0,2,sem_coocorrencia
+python:S1871,python,Useless Statements (executed without effect),4,2,0,4,2,249,0.0,0.008,-0.008,0.0,2,sem_coocorrencia
+python:S1871,python,Useless Statements (unexecuted),6,2,0,6,2,247,0.0,0.008,-0.008,0.0,2,sem_coocorrencia
+python:S2190,python,Useless Statements (executed without effect),4,2,0,4,2,249,0.0,0.008,-0.008,0.0,2,sem_coocorrencia
+python:S6353,python,Useless Statements (executed without effect),4,2,0,4,2,249,0.0,0.008,-0.008,0.0,2,sem_coocorrencia
+python:S6353,python,Useless Statements (unexecuted),6,2,0,6,2,247,0.0,0.008,-0.008,0.0,2,sem_coocorrencia
+python:S1871,python,Inconsistent Libraries,2,2,0,2,2,251,0.0,0.0079,-0.0079,0.0,2,sem_coocorrencia
+python:S2190,python,Inconsistent Libraries,2,2,0,2,2,251,0.0,0.0079,-0.0079,0.0,2,sem_coocorrencia
+python:S6353,python,Inconsistent Libraries,2,2,0,2,2,251,0.0,0.0079,-0.0079,0.0,2,sem_coocorrencia
+java:S1066,java,Useless Statements (executed without effect),37,1,0,37,1,140,0.0,0.0071,-0.0071,0.0,1,sem_coocorrencia
+java:S117,java,Useless Statements (executed without effect),37,1,0,37,1,140,0.0,0.0071,-0.0071,0.0,1,sem_coocorrencia
+java:S1192,java,Useless Statements (executed without effect),37,1,0,37,1,140,0.0,0.0071,-0.0071,0.0,1,sem_coocorrencia
+java:S1206,java,Useless Statements (executed without effect),37,1,0,37,1,140,0.0,0.0071,-0.0071,0.0,1,sem_coocorrencia
+java:S1481,java,Useless Statements (executed without effect),37,1,0,37,1,140,0.0,0.0071,-0.0071,0.0,1,sem_coocorrencia
+java:S1604,java,Useless Statements (executed without effect),37,1,0,37,1,140,0.0,0.0071,-0.0071,0.0,1,sem_coocorrencia
+java:S1659,java,Useless Statements (executed without effect),37,1,0,37,1,140,0.0,0.0071,-0.0071,0.0,1,sem_coocorrencia
+java:S3740,java,Useless Statements (executed without effect),37,1,0,37,1,140,0.0,0.0071,-0.0071,0.0,1,sem_coocorrencia
+java:S5738,java,Useless Statements (executed without effect),37,1,0,37,1,140,0.0,0.0071,-0.0071,0.0,1,sem_coocorrencia
+java:S6208,java,Useless Statements (executed without effect),37,1,0,37,1,140,0.0,0.0071,-0.0071,0.0,1,sem_coocorrencia
+python:S1066,python,Library/Project,105,1,0,105,1,149,0.0,0.0067,-0.0067,0.0,1,sem_coocorrencia
+python:S3358,python,Library/Project,105,1,0,105,1,149,0.0,0.0067,-0.0067,0.0,1,sem_coocorrencia
+python:S3457,python,Library/Project,105,1,0,105,1,149,0.0,0.0067,-0.0067,0.0,1,sem_coocorrencia
+python:S5756,python,Library/Project,105,1,0,105,1,149,0.0,0.0067,-0.0067,0.0,1,sem_coocorrencia
+python:S5806,python,Library/Project,105,1,0,105,1,149,0.0,0.0067,-0.0067,0.0,1,sem_coocorrencia
+python:S5855,python,Library/Project,105,1,0,105,1,149,0.0,0.0067,-0.0067,0.0,1,sem_coocorrencia
+python:S5869,python,Library/Project,105,1,0,105,1,149,0.0,0.0067,-0.0067,0.0,1,sem_coocorrencia
+python:S6395,python,Library/Project,105,1,0,105,1,149,0.0,0.0067,-0.0067,0.0,1,sem_coocorrencia
+python:S6397,python,Library/Project,105,1,0,105,1,149,0.0,0.0067,-0.0067,0.0,1,sem_coocorrencia
+java:S1066,java,Algorithm,19,1,0,19,1,158,0.0,0.0063,-0.0063,0.0,1,sem_coocorrencia
+java:S1192,java,Algorithm,19,1,0,19,1,158,0.0,0.0063,-0.0063,0.0,1,sem_coocorrencia
+java:S1206,java,Algorithm,19,1,0,19,1,158,0.0,0.0063,-0.0063,0.0,1,sem_coocorrencia
+java:S1481,java,Algorithm,19,1,0,19,1,158,0.0,0.0063,-0.0063,0.0,1,sem_coocorrencia
+java:S1659,java,Algorithm,19,1,0,19,1,158,0.0,0.0063,-0.0063,0.0,1,sem_coocorrencia
+java:S1905,java,Algorithm,19,1,0,19,1,158,0.0,0.0063,-0.0063,0.0,1,sem_coocorrencia
+java:S2189,java,Algorithm,19,1,0,19,1,158,0.0,0.0063,-0.0063,0.0,1,sem_coocorrencia
+java:S2259,java,Algorithm,19,1,0,19,1,158,0.0,0.0063,-0.0063,0.0,1,sem_coocorrencia
+java:S3626,java,Algorithm,19,1,0,19,1,158,0.0,0.0063,-0.0063,0.0,1,sem_coocorrencia
+java:S3740,java,Algorithm,19,1,0,19,1,158,0.0,0.0063,-0.0063,0.0,1,sem_coocorrencia
+java:S5738,java,Algorithm,19,1,0,19,1,158,0.0,0.0063,-0.0063,0.0,1,sem_coocorrencia
+java:S6208,java,Algorithm,19,1,0,19,1,158,0.0,0.0063,-0.0063,0.0,1,sem_coocorrencia
+java:S1066,java,Fragmented Logics,2,1,0,2,1,175,0.0,0.0057,-0.0057,0.0,1,sem_coocorrencia
+java:S117,java,Fragmented Logics,2,1,0,2,1,175,0.0,0.0057,-0.0057,0.0,1,sem_coocorrencia
+java:S1192,java,Fragmented Logics,2,1,0,2,1,175,0.0,0.0057,-0.0057,0.0,1,sem_coocorrencia
+java:S1206,java,Fragmented Logics,2,1,0,2,1,175,0.0,0.0057,-0.0057,0.0,1,sem_coocorrencia
+java:S1481,java,Fragmented Logics,2,1,0,2,1,175,0.0,0.0057,-0.0057,0.0,1,sem_coocorrencia
+java:S1604,java,Fragmented Logics,2,1,0,2,1,175,0.0,0.0057,-0.0057,0.0,1,sem_coocorrencia
+java:S1659,java,Fragmented Logics,2,1,0,2,1,175,0.0,0.0057,-0.0057,0.0,1,sem_coocorrencia
+java:S1905,java,Fragmented Logics,2,1,0,2,1,175,0.0,0.0057,-0.0057,0.0,1,sem_coocorrencia
+java:S2189,java,Fragmented Logics,2,1,0,2,1,175,0.0,0.0057,-0.0057,0.0,1,sem_coocorrencia
+java:S2259,java,Fragmented Logics,2,1,0,2,1,175,0.0,0.0057,-0.0057,0.0,1,sem_coocorrencia
+java:S3626,java,Fragmented Logics,2,1,0,2,1,175,0.0,0.0057,-0.0057,0.0,1,sem_coocorrencia
+java:S3740,java,Fragmented Logics,2,1,0,2,1,175,0.0,0.0057,-0.0057,0.0,1,sem_coocorrencia
+java:S5738,java,Fragmented Logics,2,1,0,2,1,175,0.0,0.0057,-0.0057,0.0,1,sem_coocorrencia
+java:S6208,java,Fragmented Logics,2,1,0,2,1,175,0.0,0.0057,-0.0057,0.0,1,sem_coocorrencia
+java:S1066,java,Common Sense,1,1,0,1,1,176,0.0,0.0056,-0.0056,0.0,1,sem_coocorrencia
+java:S1066,java,Computer Theory,1,1,0,1,1,176,0.0,0.0056,-0.0056,0.0,1,sem_coocorrencia
+java:S1066,java,Data Conflicting,1,1,0,1,1,176,0.0,0.0056,-0.0056,0.0,1,sem_coocorrencia
+java:S117,java,Common Sense,1,1,0,1,1,176,0.0,0.0056,-0.0056,0.0,1,sem_coocorrencia
+java:S117,java,Computer Theory,1,1,0,1,1,176,0.0,0.0056,-0.0056,0.0,1,sem_coocorrencia
+java:S117,java,Data Conflicting,1,1,0,1,1,176,0.0,0.0056,-0.0056,0.0,1,sem_coocorrencia
+java:S1192,java,Common Sense,1,1,0,1,1,176,0.0,0.0056,-0.0056,0.0,1,sem_coocorrencia
+java:S1192,java,Computer Theory,1,1,0,1,1,176,0.0,0.0056,-0.0056,0.0,1,sem_coocorrencia
+java:S1192,java,Data Conflicting,1,1,0,1,1,176,0.0,0.0056,-0.0056,0.0,1,sem_coocorrencia
+java:S1206,java,Common Sense,1,1,0,1,1,176,0.0,0.0056,-0.0056,0.0,1,sem_coocorrencia
+java:S1206,java,Computer Theory,1,1,0,1,1,176,0.0,0.0056,-0.0056,0.0,1,sem_coocorrencia
+java:S1206,java,Data Conflicting,1,1,0,1,1,176,0.0,0.0056,-0.0056,0.0,1,sem_coocorrencia
+java:S1481,java,Common Sense,1,1,0,1,1,176,0.0,0.0056,-0.0056,0.0,1,sem_coocorrencia
+java:S1481,java,Computer Theory,1,1,0,1,1,176,0.0,0.0056,-0.0056,0.0,1,sem_coocorrencia
+java:S1481,java,Data Conflicting,1,1,0,1,1,176,0.0,0.0056,-0.0056,0.0,1,sem_coocorrencia
+java:S1604,java,Common Sense,1,1,0,1,1,176,0.0,0.0056,-0.0056,0.0,1,sem_coocorrencia
+java:S1604,java,Computer Theory,1,1,0,1,1,176,0.0,0.0056,-0.0056,0.0,1,sem_coocorrencia
+java:S1604,java,Data Conflicting,1,1,0,1,1,176,0.0,0.0056,-0.0056,0.0,1,sem_coocorrencia
+java:S1659,java,Common Sense,1,1,0,1,1,176,0.0,0.0056,-0.0056,0.0,1,sem_coocorrencia
+java:S1659,java,Computer Theory,1,1,0,1,1,176,0.0,0.0056,-0.0056,0.0,1,sem_coocorrencia
+java:S1659,java,Data Conflicting,1,1,0,1,1,176,0.0,0.0056,-0.0056,0.0,1,sem_coocorrencia
+java:S1905,java,Common Sense,1,1,0,1,1,176,0.0,0.0056,-0.0056,0.0,1,sem_coocorrencia
+java:S1905,java,Computer Theory,1,1,0,1,1,176,0.0,0.0056,-0.0056,0.0,1,sem_coocorrencia
+java:S1905,java,Data Conflicting,1,1,0,1,1,176,0.0,0.0056,-0.0056,0.0,1,sem_coocorrencia
+java:S2189,java,Common Sense,1,1,0,1,1,176,0.0,0.0056,-0.0056,0.0,1,sem_coocorrencia
+java:S2189,java,Computer Theory,1,1,0,1,1,176,0.0,0.0056,-0.0056,0.0,1,sem_coocorrencia
+java:S2189,java,Data Conflicting,1,1,0,1,1,176,0.0,0.0056,-0.0056,0.0,1,sem_coocorrencia
+java:S2259,java,Common Sense,1,1,0,1,1,176,0.0,0.0056,-0.0056,0.0,1,sem_coocorrencia
+java:S2259,java,Computer Theory,1,1,0,1,1,176,0.0,0.0056,-0.0056,0.0,1,sem_coocorrencia
+java:S2259,java,Data Conflicting,1,1,0,1,1,176,0.0,0.0056,-0.0056,0.0,1,sem_coocorrencia
+java:S3626,java,Common Sense,1,1,0,1,1,176,0.0,0.0056,-0.0056,0.0,1,sem_coocorrencia
+java:S3626,java,Computer Theory,1,1,0,1,1,176,0.0,0.0056,-0.0056,0.0,1,sem_coocorrencia
+java:S3740,java,Common Sense,1,1,0,1,1,176,0.0,0.0056,-0.0056,0.0,1,sem_coocorrencia
+java:S3740,java,Computer Theory,1,1,0,1,1,176,0.0,0.0056,-0.0056,0.0,1,sem_coocorrencia
+java:S3740,java,Data Conflicting,1,1,0,1,1,176,0.0,0.0056,-0.0056,0.0,1,sem_coocorrencia
+java:S5738,java,Common Sense,1,1,0,1,1,176,0.0,0.0056,-0.0056,0.0,1,sem_coocorrencia
+java:S5738,java,Computer Theory,1,1,0,1,1,176,0.0,0.0056,-0.0056,0.0,1,sem_coocorrencia
+java:S5738,java,Data Conflicting,1,1,0,1,1,176,0.0,0.0056,-0.0056,0.0,1,sem_coocorrencia
+java:S6208,java,Common Sense,1,1,0,1,1,176,0.0,0.0056,-0.0056,0.0,1,sem_coocorrencia
+java:S6208,java,Computer Theory,1,1,0,1,1,176,0.0,0.0056,-0.0056,0.0,1,sem_coocorrencia
+java:S6208,java,Data Conflicting,1,1,0,1,1,176,0.0,0.0056,-0.0056,0.0,1,sem_coocorrencia
+python:S1192,python,Data Conflicting,31,1,0,31,1,223,0.0,0.0045,-0.0045,0.0,1,sem_coocorrencia
+python:S1656,python,Data Conflicting,31,1,0,31,1,223,0.0,0.0045,-0.0045,0.0,1,sem_coocorrencia
+python:S1862,python,Data Conflicting,31,1,0,31,1,223,0.0,0.0045,-0.0045,0.0,1,sem_coocorrencia
+python:S2275,python,Data Conflicting,31,1,0,31,1,223,0.0,0.0045,-0.0045,0.0,1,sem_coocorrencia
+python:S3358,python,Data Conflicting,31,1,0,31,1,223,0.0,0.0045,-0.0045,0.0,1,sem_coocorrencia
+python:S3457,python,Data Conflicting,31,1,0,31,1,223,0.0,0.0045,-0.0045,0.0,1,sem_coocorrencia
+python:S3923,python,Data Conflicting,31,1,0,31,1,223,0.0,0.0045,-0.0045,0.0,1,sem_coocorrencia
+python:S5603,python,Data Conflicting,31,1,0,31,1,223,0.0,0.0045,-0.0045,0.0,1,sem_coocorrencia
+python:S5756,python,Data Conflicting,31,1,0,31,1,223,0.0,0.0045,-0.0045,0.0,1,sem_coocorrencia
+python:S5806,python,Data Conflicting,31,1,0,31,1,223,0.0,0.0045,-0.0045,0.0,1,sem_coocorrencia
+python:S5855,python,Data Conflicting,31,1,0,31,1,223,0.0,0.0045,-0.0045,0.0,1,sem_coocorrencia
+python:S5869,python,Data Conflicting,31,1,0,31,1,223,0.0,0.0045,-0.0045,0.0,1,sem_coocorrencia
+python:S6326,python,Data Conflicting,31,1,0,31,1,223,0.0,0.0045,-0.0045,0.0,1,sem_coocorrencia
+python:S6395,python,Data Conflicting,31,1,0,31,1,223,0.0,0.0045,-0.0045,0.0,1,sem_coocorrencia
+python:S6397,python,Data Conflicting,31,1,0,31,1,223,0.0,0.0045,-0.0045,0.0,1,sem_coocorrencia
+python:S930,python,Data Conflicting,31,1,0,31,1,223,0.0,0.0045,-0.0045,0.0,1,sem_coocorrencia
+python:S1066,python,Undefined Variables,22,1,0,22,1,232,0.0,0.0043,-0.0043,0.0,1,sem_coocorrencia
+python:S1192,python,Undefined Variables,22,1,0,22,1,232,0.0,0.0043,-0.0043,0.0,1,sem_coocorrencia
+python:S1656,python,Undefined Variables,22,1,0,22,1,232,0.0,0.0043,-0.0043,0.0,1,sem_coocorrencia
+python:S3358,python,Undefined Variables,22,1,0,22,1,232,0.0,0.0043,-0.0043,0.0,1,sem_coocorrencia
+python:S3457,python,Undefined Variables,22,1,0,22,1,232,0.0,0.0043,-0.0043,0.0,1,sem_coocorrencia
+python:S5756,python,Undefined Variables,22,1,0,22,1,232,0.0,0.0043,-0.0043,0.0,1,sem_coocorrencia
+python:S5806,python,Undefined Variables,22,1,0,22,1,232,0.0,0.0043,-0.0043,0.0,1,sem_coocorrencia
+python:S5855,python,Undefined Variables,22,1,0,22,1,232,0.0,0.0043,-0.0043,0.0,1,sem_coocorrencia
+python:S5869,python,Undefined Variables,22,1,0,22,1,232,0.0,0.0043,-0.0043,0.0,1,sem_coocorrencia
+python:S6395,python,Undefined Variables,22,1,0,22,1,232,0.0,0.0043,-0.0043,0.0,1,sem_coocorrencia
+python:S6397,python,Undefined Variables,22,1,0,22,1,232,0.0,0.0043,-0.0043,0.0,1,sem_coocorrencia
+python:S930,python,Undefined Variables,22,1,0,22,1,232,0.0,0.0043,-0.0043,0.0,1,sem_coocorrencia
+python:S1066,python,Algorithm,15,1,0,15,1,239,0.0,0.0042,-0.0042,0.0,1,sem_coocorrencia
+python:S1066,python,Computer Theory,19,1,0,19,1,235,0.0,0.0042,-0.0042,0.0,1,sem_coocorrencia
+python:S1066,python,Fragmented Logics,17,1,0,17,1,237,0.0,0.0042,-0.0042,0.0,1,sem_coocorrencia
+python:S1192,python,Algorithm,15,1,0,15,1,239,0.0,0.0042,-0.0042,0.0,1,sem_coocorrencia
+python:S1192,python,Fragmented Logics,17,1,0,17,1,237,0.0,0.0042,-0.0042,0.0,1,sem_coocorrencia
+python:S1656,python,Computer Theory,19,1,0,19,1,235,0.0,0.0042,-0.0042,0.0,1,sem_coocorrencia
+python:S1656,python,Fragmented Logics,17,1,0,17,1,237,0.0,0.0042,-0.0042,0.0,1,sem_coocorrencia
+python:S1862,python,Algorithm,15,1,0,15,1,239,0.0,0.0042,-0.0042,0.0,1,sem_coocorrencia
+python:S1862,python,Fragmented Logics,17,1,0,17,1,237,0.0,0.0042,-0.0042,0.0,1,sem_coocorrencia
+python:S2275,python,Algorithm,15,1,0,15,1,239,0.0,0.0042,-0.0042,0.0,1,sem_coocorrencia
+python:S2275,python,Computer Theory,19,1,0,19,1,235,0.0,0.0042,-0.0042,0.0,1,sem_coocorrencia
+python:S3358,python,Algorithm,15,1,0,15,1,239,0.0,0.0042,-0.0042,0.0,1,sem_coocorrencia
+python:S3358,python,Computer Theory,19,1,0,19,1,235,0.0,0.0042,-0.0042,0.0,1,sem_coocorrencia
+python:S3358,python,Fragmented Logics,17,1,0,17,1,237,0.0,0.0042,-0.0042,0.0,1,sem_coocorrencia
+python:S3457,python,Algorithm,15,1,0,15,1,239,0.0,0.0042,-0.0042,0.0,1,sem_coocorrencia
+python:S3457,python,Computer Theory,19,1,0,19,1,235,0.0,0.0042,-0.0042,0.0,1,sem_coocorrencia
+python:S3457,python,Fragmented Logics,17,1,0,17,1,237,0.0,0.0042,-0.0042,0.0,1,sem_coocorrencia
+python:S3923,python,Algorithm,15,1,0,15,1,239,0.0,0.0042,-0.0042,0.0,1,sem_coocorrencia
+python:S3923,python,Fragmented Logics,17,1,0,17,1,237,0.0,0.0042,-0.0042,0.0,1,sem_coocorrencia
+python:S5603,python,Algorithm,15,1,0,15,1,239,0.0,0.0042,-0.0042,0.0,1,sem_coocorrencia
+python:S5603,python,Computer Theory,19,1,0,19,1,235,0.0,0.0042,-0.0042,0.0,1,sem_coocorrencia
+python:S5756,python,Computer Theory,19,1,0,19,1,235,0.0,0.0042,-0.0042,0.0,1,sem_coocorrencia
+python:S5756,python,Fragmented Logics,17,1,0,17,1,237,0.0,0.0042,-0.0042,0.0,1,sem_coocorrencia
+python:S5806,python,Algorithm,15,1,0,15,1,239,0.0,0.0042,-0.0042,0.0,1,sem_coocorrencia
+python:S5806,python,Computer Theory,19,1,0,19,1,235,0.0,0.0042,-0.0042,0.0,1,sem_coocorrencia
+python:S5806,python,Fragmented Logics,17,1,0,17,1,237,0.0,0.0042,-0.0042,0.0,1,sem_coocorrencia
+python:S5855,python,Algorithm,15,1,0,15,1,239,0.0,0.0042,-0.0042,0.0,1,sem_coocorrencia
+python:S5855,python,Fragmented Logics,17,1,0,17,1,237,0.0,0.0042,-0.0042,0.0,1,sem_coocorrencia
+python:S5869,python,Algorithm,15,1,0,15,1,239,0.0,0.0042,-0.0042,0.0,1,sem_coocorrencia
+python:S5869,python,Fragmented Logics,17,1,0,17,1,237,0.0,0.0042,-0.0042,0.0,1,sem_coocorrencia
+python:S6326,python,Algorithm,15,1,0,15,1,239,0.0,0.0042,-0.0042,0.0,1,sem_coocorrencia
+python:S6326,python,Computer Theory,19,1,0,19,1,235,0.0,0.0042,-0.0042,0.0,1,sem_coocorrencia
+python:S6395,python,Algorithm,15,1,0,15,1,239,0.0,0.0042,-0.0042,0.0,1,sem_coocorrencia
+python:S6395,python,Fragmented Logics,17,1,0,17,1,237,0.0,0.0042,-0.0042,0.0,1,sem_coocorrencia
+python:S6397,python,Algorithm,15,1,0,15,1,239,0.0,0.0042,-0.0042,0.0,1,sem_coocorrencia
+python:S6397,python,Fragmented Logics,17,1,0,17,1,237,0.0,0.0042,-0.0042,0.0,1,sem_coocorrencia
+python:S930,python,Algorithm,15,1,0,15,1,239,0.0,0.0042,-0.0042,0.0,1,sem_coocorrencia
+python:S930,python,Computer Theory,19,1,0,19,1,235,0.0,0.0042,-0.0042,0.0,1,sem_coocorrencia
+python:S930,python,Fragmented Logics,17,1,0,17,1,237,0.0,0.0042,-0.0042,0.0,1,sem_coocorrencia
+python:S1066,python,Mathematics & Natural Science,11,1,0,11,1,243,0.0,0.0041,-0.0041,0.0,1,sem_coocorrencia
+python:S1192,python,Mathematics & Natural Science,11,1,0,11,1,243,0.0,0.0041,-0.0041,0.0,1,sem_coocorrencia
+python:S1656,python,Mathematics & Natural Science,11,1,0,11,1,243,0.0,0.0041,-0.0041,0.0,1,sem_coocorrencia
+python:S1862,python,Mathematics & Natural Science,11,1,0,11,1,243,0.0,0.0041,-0.0041,0.0,1,sem_coocorrencia
+python:S2275,python,Mathematics & Natural Science,11,1,0,11,1,243,0.0,0.0041,-0.0041,0.0,1,sem_coocorrencia
+python:S3358,python,Mathematics & Natural Science,11,1,0,11,1,243,0.0,0.0041,-0.0041,0.0,1,sem_coocorrencia
+python:S3457,python,Mathematics & Natural Science,11,1,0,11,1,243,0.0,0.0041,-0.0041,0.0,1,sem_coocorrencia
+python:S3923,python,Mathematics & Natural Science,11,1,0,11,1,243,0.0,0.0041,-0.0041,0.0,1,sem_coocorrencia
+python:S5603,python,Mathematics & Natural Science,11,1,0,11,1,243,0.0,0.0041,-0.0041,0.0,1,sem_coocorrencia
+python:S5756,python,Mathematics & Natural Science,11,1,0,11,1,243,0.0,0.0041,-0.0041,0.0,1,sem_coocorrencia
+python:S5806,python,Mathematics & Natural Science,11,1,0,11,1,243,0.0,0.0041,-0.0041,0.0,1,sem_coocorrencia
+python:S5855,python,Mathematics & Natural Science,11,1,0,11,1,243,0.0,0.0041,-0.0041,0.0,1,sem_coocorrencia
+python:S5869,python,Mathematics & Natural Science,11,1,0,11,1,243,0.0,0.0041,-0.0041,0.0,1,sem_coocorrencia
+python:S6326,python,Mathematics & Natural Science,11,1,0,11,1,243,0.0,0.0041,-0.0041,0.0,1,sem_coocorrencia
+python:S6395,python,Mathematics & Natural Science,11,1,0,11,1,243,0.0,0.0041,-0.0041,0.0,1,sem_coocorrencia
+python:S6397,python,Mathematics & Natural Science,11,1,0,11,1,243,0.0,0.0041,-0.0041,0.0,1,sem_coocorrencia
+python:S930,python,Mathematics & Natural Science,11,1,0,11,1,243,0.0,0.0041,-0.0041,0.0,1,sem_coocorrencia
+python:S1066,python,Inconsistent Libraries,2,1,0,2,1,252,0.0,0.004,-0.004,0.0,1,sem_coocorrencia
+python:S1066,python,Useless Statements (executed without effect),4,1,0,4,1,250,0.0,0.004,-0.004,0.0,1,sem_coocorrencia
+python:S1066,python,Useless Statements (unexecuted),6,1,0,6,1,248,0.0,0.004,-0.004,0.0,1,sem_coocorrencia
+python:S1192,python,Inconsistent Libraries,2,1,0,2,1,252,0.0,0.004,-0.004,0.0,1,sem_coocorrencia
+python:S1192,python,Useless Statements (executed without effect),4,1,0,4,1,250,0.0,0.004,-0.004,0.0,1,sem_coocorrencia
+python:S1192,python,Useless Statements (unexecuted),6,1,0,6,1,248,0.0,0.004,-0.004,0.0,1,sem_coocorrencia
+python:S1656,python,Inconsistent Libraries,2,1,0,2,1,252,0.0,0.004,-0.004,0.0,1,sem_coocorrencia
+python:S1656,python,Useless Statements (executed without effect),4,1,0,4,1,250,0.0,0.004,-0.004,0.0,1,sem_coocorrencia
+python:S1656,python,Useless Statements (unexecuted),6,1,0,6,1,248,0.0,0.004,-0.004,0.0,1,sem_coocorrencia
+python:S1862,python,Inconsistent Libraries,2,1,0,2,1,252,0.0,0.004,-0.004,0.0,1,sem_coocorrencia
+python:S1862,python,Useless Statements (executed without effect),4,1,0,4,1,250,0.0,0.004,-0.004,0.0,1,sem_coocorrencia
+python:S1862,python,Useless Statements (unexecuted),6,1,0,6,1,248,0.0,0.004,-0.004,0.0,1,sem_coocorrencia
+python:S2275,python,Inconsistent Libraries,2,1,0,2,1,252,0.0,0.004,-0.004,0.0,1,sem_coocorrencia
+python:S2275,python,Useless Statements (executed without effect),4,1,0,4,1,250,0.0,0.004,-0.004,0.0,1,sem_coocorrencia
+python:S2275,python,Useless Statements (unexecuted),6,1,0,6,1,248,0.0,0.004,-0.004,0.0,1,sem_coocorrencia
+python:S3358,python,Inconsistent Libraries,2,1,0,2,1,252,0.0,0.004,-0.004,0.0,1,sem_coocorrencia
+python:S3358,python,Useless Statements (executed without effect),4,1,0,4,1,250,0.0,0.004,-0.004,0.0,1,sem_coocorrencia
+python:S3358,python,Useless Statements (unexecuted),6,1,0,6,1,248,0.0,0.004,-0.004,0.0,1,sem_coocorrencia
+python:S3457,python,Inconsistent Libraries,2,1,0,2,1,252,0.0,0.004,-0.004,0.0,1,sem_coocorrencia
+python:S3457,python,Useless Statements (executed without effect),4,1,0,4,1,250,0.0,0.004,-0.004,0.0,1,sem_coocorrencia
+python:S3457,python,Useless Statements (unexecuted),6,1,0,6,1,248,0.0,0.004,-0.004,0.0,1,sem_coocorrencia
+python:S3923,python,Inconsistent Libraries,2,1,0,2,1,252,0.0,0.004,-0.004,0.0,1,sem_coocorrencia
+python:S3923,python,Useless Statements (executed without effect),4,1,0,4,1,250,0.0,0.004,-0.004,0.0,1,sem_coocorrencia
+python:S3923,python,Useless Statements (unexecuted),6,1,0,6,1,248,0.0,0.004,-0.004,0.0,1,sem_coocorrencia
+python:S5603,python,Inconsistent Libraries,2,1,0,2,1,252,0.0,0.004,-0.004,0.0,1,sem_coocorrencia
+python:S5603,python,Useless Statements (executed without effect),4,1,0,4,1,250,0.0,0.004,-0.004,0.0,1,sem_coocorrencia
+python:S5603,python,Useless Statements (unexecuted),6,1,0,6,1,248,0.0,0.004,-0.004,0.0,1,sem_coocorrencia
+python:S5756,python,Inconsistent Libraries,2,1,0,2,1,252,0.0,0.004,-0.004,0.0,1,sem_coocorrencia
+python:S5756,python,Useless Statements (executed without effect),4,1,0,4,1,250,0.0,0.004,-0.004,0.0,1,sem_coocorrencia
+python:S5756,python,Useless Statements (unexecuted),6,1,0,6,1,248,0.0,0.004,-0.004,0.0,1,sem_coocorrencia
+python:S5806,python,Inconsistent Libraries,2,1,0,2,1,252,0.0,0.004,-0.004,0.0,1,sem_coocorrencia
+python:S5806,python,Useless Statements (executed without effect),4,1,0,4,1,250,0.0,0.004,-0.004,0.0,1,sem_coocorrencia
+python:S5806,python,Useless Statements (unexecuted),6,1,0,6,1,248,0.0,0.004,-0.004,0.0,1,sem_coocorrencia
+python:S5855,python,Inconsistent Libraries,2,1,0,2,1,252,0.0,0.004,-0.004,0.0,1,sem_coocorrencia
+python:S5855,python,Useless Statements (executed without effect),4,1,0,4,1,250,0.0,0.004,-0.004,0.0,1,sem_coocorrencia
+python:S5855,python,Useless Statements (unexecuted),6,1,0,6,1,248,0.0,0.004,-0.004,0.0,1,sem_coocorrencia
+python:S5869,python,Inconsistent Libraries,2,1,0,2,1,252,0.0,0.004,-0.004,0.0,1,sem_coocorrencia
+python:S5869,python,Useless Statements (executed without effect),4,1,0,4,1,250,0.0,0.004,-0.004,0.0,1,sem_coocorrencia
+python:S5869,python,Useless Statements (unexecuted),6,1,0,6,1,248,0.0,0.004,-0.004,0.0,1,sem_coocorrencia
+python:S6326,python,Inconsistent Libraries,2,1,0,2,1,252,0.0,0.004,-0.004,0.0,1,sem_coocorrencia
+python:S6326,python,Useless Statements (executed without effect),4,1,0,4,1,250,0.0,0.004,-0.004,0.0,1,sem_coocorrencia
+python:S6326,python,Useless Statements (unexecuted),6,1,0,6,1,248,0.0,0.004,-0.004,0.0,1,sem_coocorrencia
+python:S6395,python,Inconsistent Libraries,2,1,0,2,1,252,0.0,0.004,-0.004,0.0,1,sem_coocorrencia
+python:S6395,python,Useless Statements (executed without effect),4,1,0,4,1,250,0.0,0.004,-0.004,0.0,1,sem_coocorrencia
+python:S6395,python,Useless Statements (unexecuted),6,1,0,6,1,248,0.0,0.004,-0.004,0.0,1,sem_coocorrencia
+python:S6397,python,Inconsistent Libraries,2,1,0,2,1,252,0.0,0.004,-0.004,0.0,1,sem_coocorrencia
+python:S6397,python,Useless Statements (executed without effect),4,1,0,4,1,250,0.0,0.004,-0.004,0.0,1,sem_coocorrencia
+python:S6397,python,Useless Statements (unexecuted),6,1,0,6,1,248,0.0,0.004,-0.004,0.0,1,sem_coocorrencia
+python:S930,python,Inconsistent Libraries,2,1,0,2,1,252,0.0,0.004,-0.004,0.0,1,sem_coocorrencia
+python:S930,python,Useless Statements (executed without effect),4,1,0,4,1,250,0.0,0.004,-0.004,0.0,1,sem_coocorrencia
+python:S930,python,Useless Statements (unexecuted),6,1,0,6,1,248,0.0,0.004,-0.004,0.0,1,sem_coocorrencia
